@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"io"
 	"log"
 	"os"
 	"sync"
@@ -19,7 +20,9 @@ func InitLog(logFile string) error {
 			err = e
 			return
 		}
-		Logger = log.New(f, "", log.LstdFlags)
+		// io.MultiWriter 可以同时写入文件和控制台
+		mw := io.MultiWriter(f, os.Stdout)
+		Logger = log.New(mw, "", log.LstdFlags)
 	})
 	return err
 }
