@@ -40,6 +40,9 @@ func main() {
 	}()
 
 	http.HandleFunc("/fetch", httpFetchHandler)
+
+	http.HandleFunc("/feed", httpFeedResultHandler)
+
 	addr := fmt.Sprintf(":%d", appConfig.Server.Port)
 	fmt.Printf("HTTP服务启动，监听端口 %d\n", appConfig.Server.Port)
 	if err := http.ListenAndServe(addr, nil); err != nil {
@@ -115,4 +118,19 @@ func httpFetchHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.WriteHeader(http.StatusOK)
 	w.Write([]byte("抓取任务已启动"))
+}
+
+// 新增的接口处理函数，直接返回 feed_result.json 内容
+func httpFeedResultHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	filePath := appConfig.RSS.OutputFile
+	data, err := os.ReadFile(filePath)
+	if err != nil {
+		http.Error(w, "读取数据失败，请稍后重试", http.StatusInternalServerError)
+		utils.Errorf("读取feed结果文件失败: %v", err)
+		return
+	}
+
+	w.Write(data)
 }

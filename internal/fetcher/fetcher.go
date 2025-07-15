@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"sort"
 	"sync"
+	"time"
 )
 
 // LoadRemoteFriends 读取远程 JSON 配置
@@ -68,8 +69,17 @@ func CrawlArticles(friends []model.Friend) model.FeedResult {
 
 	wg.Wait()
 
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+	layout := "2006-01-02 15:04:05"
+
 	sort.Slice(allArticles, func(i, j int) bool {
-		return allArticles[i].Published.After(allArticles[j].Published)
+		t1, err1 := time.ParseInLocation(layout, allArticles[i].Published, loc)
+		t2, err2 := time.ParseInLocation(layout, allArticles[j].Published, loc)
+
+		if err1 != nil || err2 != nil {
+			return false
+		}
+		return t1.After(t2)
 	})
 
 	var result model.FeedResult

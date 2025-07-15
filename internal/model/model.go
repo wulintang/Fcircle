@@ -1,7 +1,5 @@
 package model
 
-import "time"
-
 // Friend 代表一个友链的基本信息
 type Friend struct {
 	Name   string `json:"name"`   // 昵称
@@ -12,11 +10,11 @@ type Friend struct {
 
 // Article 代表从 RSS 中抓取的一篇文章
 type Article struct {
-	Title     string    `json:"title"`     // 标题
-	Link      string    `json:"link"`      // 文章链接
-	Published time.Time `json:"published"` // 发布时间
-	Author    string    `json:"author"`    // 作者昵称
-	Avatar    string    `json:"avatar"`    // 作者头像
+	Title     string `json:"title"`     // 标题
+	Link      string `json:"link"`      // 文章链接
+	Published string `json:"published"` // 发布时间
+	Author    string `json:"author"`    // 作者昵称
+	Avatar    string `json:"avatar"`    // 作者头像
 }
 
 // FeedResult 用于输出最终 JSON 文件结构

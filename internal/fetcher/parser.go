@@ -2,6 +2,7 @@ package fetcher
 
 import (
 	"Fcircle/internal/model"
+	"Fcircle/internal/utils"
 	"fmt"
 	"github.com/mmcdole/gofeed"
 	"net/http"
@@ -10,39 +11,66 @@ import (
 
 // FetchFriendArticles 请求并解析指定 friend 的 RSS，返回最新 maxCount 篇文章
 func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, error) {
-	client := http.Client{
-		Timeout: 10 * time.Second,
+
+	client := &http.Client{
+		Timeout: 15 * time.Second,
+		Transport: &http.Transport{
+			ResponseHeaderTimeout: 5 * time.Second,
+			TLSHandshakeTimeout:   5 * time.Second,
+		},
 	}
 
-	resp, err := client.Get(friend.RSS)
+	const maxRetry = 2
+
+	var (
+		resp *http.Response
+		err  error
+	)
+
+	start := time.Now()
+
+	for attempt := 0; attempt <= maxRetry; attempt++ {
+		resp, err = client.Get(friend.RSS)
+		if err == nil {
+			break
+		}
+		time.Sleep(2 * time.Second)
+	}
+	duration := time.Since(start)
+
+	utils.Infof("抓取 [%s] RSS 用时: %v", friend.Name, duration)
+
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("RSS 请求失败: %v", err)
 	}
 	defer resp.Body.Close()
 
-	if resp.StatusCode != 200 {
+	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("RSS 请求失败，状态码: %d", resp.StatusCode)
 	}
 
 	parser := gofeed.NewParser()
 	feed, err := parser.Parse(resp.Body)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("RSS 解析失败: %v", err)
 	}
 
 	articles := make([]model.Article, 0, maxCount)
+	loc, _ := time.LoadLocation("Asia/Shanghai") // 东八区
 
 	for i, item := range feed.Items {
 		if i >= maxCount {
 			break
 		}
 
-		pubTime := time.Now()
+		pubTime := time.Now().In(loc)
 		if item.PublishedParsed != nil {
-			pubTime = *item.PublishedParsed
+			pubTime = item.PublishedParsed.In(loc)
 		} else if item.UpdatedParsed != nil {
-			pubTime = *item.UpdatedParsed
+			pubTime = item.UpdatedParsed.In(loc)
 		}
+
+		formattedTime := pubTime.Format("2006-01-02 15:04:05")
 
 		author := friend.Name
 		if item.Author != nil && item.Author.Name != "" {
@@ -52,7 +80,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 		article := model.Article{
 			Title:     item.Title,
 			Link:      item.Link,
-			Published: pubTime,
+			Published: formattedTime,
 			Author:    author,
 			Avatar:    friend.Avatar,
 		}
