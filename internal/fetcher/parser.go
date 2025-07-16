@@ -90,7 +90,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 		}
 
 		// 去除 HTML 标签再截取 200 字符
-		cleanContent := ExtractTextFromHTML(content)
+		cleanContent := ExtractCleanHTML(content)
 		if len(cleanContent) > 200 {
 			cleanContent = cleanContent[:200]
 		}
@@ -109,21 +109,55 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 	return articles, nil
 }
 
-func ExtractTextFromHTML(htmlStr string) string {
+func ExtractCleanHTML(htmlStr string) string {
 	doc, err := html.Parse(strings.NewReader(htmlStr))
 	if err != nil {
 		return ""
 	}
-	var output strings.Builder
-	var f func(*html.Node)
-	f = func(n *html.Node) {
-		if n.Type == html.TextNode {
-			output.WriteString(n.Data)
-		}
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			f(c)
+
+	var builder strings.Builder
+
+	var traverse func(*html.Node)
+	traverse = func(n *html.Node) {
+		switch n.Type {
+		case html.TextNode:
+			// 去除 \ufffd 乱码
+			clean := strings.ReplaceAll(n.Data, "\uFFFD", "")
+			builder.WriteString(clean)
+
+		case html.ElementNode:
+			// 保留 <a> 和 <br>
+			switch n.Data {
+			case "a":
+				builder.WriteString(`<a`)
+				for _, attr := range n.Attr {
+					if attr.Key == "href" {
+						builder.WriteString(` href="` + html.EscapeString(attr.Val) + `"`)
+					}
+				}
+				builder.WriteString(`>`)
+				for c := n.FirstChild; c != nil; c = c.NextSibling {
+					traverse(c)
+				}
+				builder.WriteString(`</a>`)
+
+			case "br":
+				builder.WriteString(`<br>`)
+
+			default:
+				// 忽略其他标签，仅递归内容
+				for c := n.FirstChild; c != nil; c = c.NextSibling {
+					traverse(c)
+				}
+			}
+
+		default:
+			for c := n.FirstChild; c != nil; c = c.NextSibling {
+				traverse(c)
+			}
 		}
 	}
-	f(doc)
-	return strings.TrimSpace(output.String())
+
+	traverse(doc)
+	return strings.TrimSpace(builder.String())
 }
