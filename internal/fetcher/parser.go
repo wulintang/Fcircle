@@ -5,8 +5,8 @@ import (
 	"Fcircle/internal/utils"
 	"fmt"
 	"github.com/mmcdole/gofeed"
+	"golang.org/x/net/html"
 	"net/http"
-	"regexp"
 	"strings"
 	"time"
 )
@@ -90,8 +90,10 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 		}
 
 		// 去除 HTML 标签再截取 200 字符
-		plainContent := stripHTMLTags(content)
-		shortContent := truncate(strings.TrimSpace(plainContent), 200)
+		cleanContent := ExtractTextFromHTML(content)
+		if len(cleanContent) > 200 {
+			cleanContent = cleanContent[:200]
+		}
 
 		article := model.Article{
 			Title:     item.Title,
@@ -99,7 +101,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			Published: formattedTime,
 			Author:    author,
 			Avatar:    friend.Avatar,
-			Content:   shortContent,
+			Content:   cleanContent,
 		}
 		articles = append(articles, article)
 	}
@@ -107,17 +109,21 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 	return articles, nil
 }
 
-// 去除 HTML 标签的函数
-func stripHTMLTags(input string) string {
-	re := regexp.MustCompile("<[^>]*>")
-	return re.ReplaceAllString(input, "")
-}
-
-// 截取指定长度字符（中文不会乱码）
-func truncate(str string, length int) string {
-	runeStr := []rune(str)
-	if len(runeStr) > length {
-		return string(runeStr[:length]) + "…"
+func ExtractTextFromHTML(htmlStr string) string {
+	doc, err := html.Parse(strings.NewReader(htmlStr))
+	if err != nil {
+		return ""
 	}
-	return str
+	var output strings.Builder
+	var f func(*html.Node)
+	f = func(n *html.Node) {
+		if n.Type == html.TextNode {
+			output.WriteString(n.Data)
+		}
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			f(c)
+		}
+	}
+	f(doc)
+	return strings.TrimSpace(output.String())
 }
