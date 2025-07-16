@@ -5,11 +5,13 @@ import (
 	"log"
 	"os"
 	"sync"
+	"time"
 )
 
 var (
 	Logger *log.Logger
 	once   sync.Once
+	loc    = time.FixedZone("CST", 8*3600)
 )
 
 func InitLog(logFile string) error {
@@ -20,22 +22,24 @@ func InitLog(logFile string) error {
 			err = e
 			return
 		}
-		// io.MultiWriter 可以同时写入文件和控制台
 		mw := io.MultiWriter(f, os.Stdout)
-		Logger = log.New(mw, "", log.LstdFlags)
+		Logger = log.New(mw, "", 0)
 	})
 	return err
 }
 
 func Info(v ...interface{}) {
 	if Logger != nil {
-		Logger.Println(v...)
+		now := time.Now().In(loc).Format("2006-01-02 15:04:05")
+		Logger.Println(append([]interface{}{now}, v...)...)
 	}
 }
 
 func Error(v ...interface{}) {
 	if Logger != nil {
-		args := make([]interface{}, 0, 1+len(v))
+		now := time.Now().In(loc).Format("2006-01-02 15:04:05")
+		args := make([]interface{}, 0, 2+len(v))
+		args = append(args, now)
 		args = append(args, "[ERROR]")
 		args = append(args, v...)
 		Logger.Println(args...)
@@ -44,12 +48,14 @@ func Error(v ...interface{}) {
 
 func Infof(format string, v ...interface{}) {
 	if Logger != nil {
-		Logger.Printf(format, v...)
+		now := time.Now().In(loc).Format("2006-01-02 15:04:05")
+		Logger.Printf("["+now+"] "+format, v...)
 	}
 }
 
 func Errorf(format string, v ...interface{}) {
 	if Logger != nil {
-		Logger.Printf("[ERROR] "+format, v...)
+		now := time.Now().In(loc).Format("2006-01-02 15:04:05")
+		Logger.Printf("["+now+"] [ERROR] "+format, v...)
 	}
 }

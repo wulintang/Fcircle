@@ -8,8 +8,11 @@ import (
 	"time"
 )
 
+var cstZone = time.FixedZone("CST", 8*3600)
+
 func FormatTime(t time.Time) string {
-	return t.Format("2006-01-02 15:04:05")
+	// 把传入的时间转成东八区再格式化
+	return t.In(cstZone).Format("2006-01-02 15:04:05")
 }
 
 func GetNowTime() string {
