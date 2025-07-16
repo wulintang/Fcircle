@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"github.com/mmcdole/gofeed"
 	"net/http"
+	"regexp"
+	"strings"
 	"time"
 )
 
@@ -80,15 +82,42 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			author = item.Author.Name
 		}
 
+		content := ""
+		if item.Content != "" {
+			content = item.Content
+		} else if item.Description != "" {
+			content = item.Description
+		}
+
+		// 去除 HTML 标签再截取 200 字符
+		plainContent := stripHTMLTags(content)
+		shortContent := truncate(strings.TrimSpace(plainContent), 200)
+
 		article := model.Article{
 			Title:     item.Title,
 			Link:      item.Link,
 			Published: formattedTime,
 			Author:    author,
 			Avatar:    friend.Avatar,
+			Content:   shortContent,
 		}
 		articles = append(articles, article)
 	}
 
 	return articles, nil
+}
+
+// 去除 HTML 标签的函数
+func stripHTMLTags(input string) string {
+	re := regexp.MustCompile("<[^>]*>")
+	return re.ReplaceAllString(input, "")
+}
+
+// 截取指定长度字符（中文不会乱码）
+func truncate(str string, length int) string {
+	runeStr := []rune(str)
+	if len(runeStr) > length {
+		return string(runeStr[:length]) + "…"
+	}
+	return str
 }
