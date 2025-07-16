@@ -58,8 +58,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 	articles := make([]model.Article, 0, maxCount)
 	loc, err := time.LoadLocation("Asia/Shanghai")
 	if err != nil {
-		fmt.Printf("加载时区失败，默认使用 UTC: %v\n", err)
-		loc = time.UTC
+		loc = time.FixedZone("CST", 8*60*60)
 	}
 
 	for i, item := range feed.Items {

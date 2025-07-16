@@ -71,8 +71,7 @@ func CrawlArticles(friends []model.Friend) model.FeedResult {
 
 	loc, err := time.LoadLocation("Asia/Shanghai")
 	if err != nil {
-		utils.Infof("加载时区失败，使用 UTC 替代: %v", err)
-		loc = time.UTC
+		loc = time.FixedZone("CST", 8*60*60)
 	}
 
 	layout := "2006-01-02 15:04:05"
