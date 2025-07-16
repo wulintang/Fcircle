@@ -20,6 +20,8 @@ var (
 
 func main() {
 
+	_ = os.Setenv("TZ", "Asia/Shanghai")
+
 	appConfig = config.LoadConfig()
 
 	err := utils.InitLog(appConfig.Log.File)
