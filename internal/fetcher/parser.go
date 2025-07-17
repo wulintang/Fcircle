@@ -29,8 +29,18 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 
 	start := time.Now()
 
+	userAgent := "FcircleBot/1.0 (+https://github.com/TXM983/Fcircle)"
+
 	for attempt := 0; attempt <= maxRetry; attempt++ {
-		resp, err = client.Get(friend.RSS)
+		req, e := http.NewRequest("GET", friend.RSS, nil)
+		if e != nil {
+			err = e
+			break
+		}
+
+		req.Header.Set("User-Agent", userAgent)
+
+		resp, err = client.Do(req)
 		if err == nil {
 			break
 		}
