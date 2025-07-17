@@ -5,7 +5,9 @@ import (
 	"Fcircle/internal/utils"
 	"fmt"
 	"github.com/mmcdole/gofeed"
+	"golang.org/x/net/html"
 	"net/http"
+	"strings"
 	"time"
 )
 
@@ -90,15 +92,82 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			author = item.Author.Name
 		}
 
+		content := ""
+		if item.Content != "" {
+			content = item.Content
+		} else if item.Description != "" {
+			content = item.Description
+		}
+
+		// 去除 HTML 标签再截取 200 字符
+		cleanContent := ExtractCleanHTML(content)
+		if len(cleanContent) > 200 {
+			cleanContent = cleanContent[:200]
+		}
+
 		article := model.Article{
 			Title:     item.Title,
 			Link:      item.Link,
 			Published: formattedTime,
 			Author:    author,
 			Avatar:    friend.Avatar,
+			Content:   cleanContent,
 		}
 		articles = append(articles, article)
 	}
 
 	return articles, nil
+}
+
+func ExtractCleanHTML(htmlStr string) string {
+	doc, err := html.Parse(strings.NewReader(htmlStr))
+	if err != nil {
+		return ""
+	}
+
+	var builder strings.Builder
+
+	var traverse func(*html.Node)
+	traverse = func(n *html.Node) {
+		switch n.Type {
+		case html.TextNode:
+			// 去除 \ufffd 乱码
+			clean := strings.ReplaceAll(n.Data, "\uFFFD", "")
+			builder.WriteString(clean)
+
+		case html.ElementNode:
+			// 保留 <a> 和 <br>
+			switch n.Data {
+			case "a":
+				builder.WriteString(`<a`)
+				for _, attr := range n.Attr {
+					if attr.Key == "href" {
+						builder.WriteString(` href="` + html.EscapeString(attr.Val) + `"`)
+					}
+				}
+				builder.WriteString(`>`)
+				for c := n.FirstChild; c != nil; c = c.NextSibling {
+					traverse(c)
+				}
+				builder.WriteString(`</a>`)
+
+			case "br":
+				builder.WriteString(`<br>`)
+
+			default:
+				// 忽略其他标签，仅递归内容
+				for c := n.FirstChild; c != nil; c = c.NextSibling {
+					traverse(c)
+				}
+			}
+
+		default:
+			for c := n.FirstChild; c != nil; c = c.NextSibling {
+				traverse(c)
+			}
+		}
+	}
+
+	traverse(doc)
+	return strings.TrimSpace(builder.String())
 }
