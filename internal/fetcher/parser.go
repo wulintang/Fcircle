@@ -99,11 +99,8 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			content = item.Description
 		}
 
-		// 去除 HTML 标签再截取 400 字符
-		cleanContent := ExtractCleanHTML(content)
-		if len(cleanContent) > 400 {
-			cleanContent = cleanContent[:400]
-		}
+		cleanContent := ExtractCleanHTML(content)      // 清理html标签
+		cleanContent = safeTruncate(cleanContent, 400) // 字符截取
 
 		article := model.Article{
 			Title:     item.Title,
@@ -119,6 +116,33 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 	return articles, nil
 }
 
+func safeTruncate(s string, maxChars int) string {
+	cleaned := strings.ToValidUTF8(s, "")
+	runes := []rune(cleaned)
+	if len(runes) <= maxChars {
+		return cleaned
+	}
+
+	truncated := string(runes[:maxChars])
+	return fixBrokenHTML(truncated)
+}
+
+func fixBrokenHTML(s string) string {
+	if lastOpen := strings.LastIndex(s, "<"); lastOpen != -1 {
+		if lastClose := strings.LastIndex(s, ">"); lastClose < lastOpen {
+			s = s[:lastOpen]
+		}
+	}
+
+	aOpenCount := strings.Count(s, "<a")
+	aCloseCount := strings.Count(s, "</a>")
+	if aOpenCount > aCloseCount {
+		s += "</a>"
+	}
+
+	return s
+}
+
 func ExtractCleanHTML(htmlStr string) string {
 	doc, err := html.Parse(strings.NewReader(htmlStr))
 	if err != nil {
@@ -131,9 +155,7 @@ func ExtractCleanHTML(htmlStr string) string {
 	traverse = func(n *html.Node) {
 		switch n.Type {
 		case html.TextNode:
-			// 去除 \ufffd 乱码
-			clean := strings.ReplaceAll(n.Data, "\uFFFD", "")
-			builder.WriteString(clean)
+			builder.WriteString(n.Data)
 
 		case html.ElementNode:
 			// 保留 <a> 和 <br>
