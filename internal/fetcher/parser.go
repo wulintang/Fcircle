@@ -109,6 +109,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			Author:    author,
 			Avatar:    friend.Avatar,
 			Content:   cleanContent,
+			Url:       friend.URL,
 		}
 		articles = append(articles, article)
 	}

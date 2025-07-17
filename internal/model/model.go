@@ -16,6 +16,7 @@ type Article struct {
 	Author    string `json:"author"`    // 作者昵称
 	Avatar    string `json:"avatar"`    // 作者头像
 	Content   string `json:"content"`   // 内容
+	Url       string `json:"url"`       // 个人站地址
 }
 
 // FeedResult 用于输出最终 JSON 文件结构
