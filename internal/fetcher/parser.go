@@ -99,10 +99,10 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 			content = item.Description
 		}
 
-		// 去除 HTML 标签再截取 200 字符
+		// 去除 HTML 标签再截取 400 字符
 		cleanContent := ExtractCleanHTML(content)
-		if len(cleanContent) > 200 {
-			cleanContent = cleanContent[:200]
+		if len(cleanContent) > 400 {
+			cleanContent = cleanContent[:400]
 		}
 
 		article := model.Article{
