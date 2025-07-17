@@ -100,7 +100,7 @@ func FetchFriendArticles(friend model.Friend, maxCount int) ([]model.Article, er
 		}
 
 		cleanContent := ExtractCleanHTML(content)      // 清理html标签
-		cleanContent = safeTruncate(cleanContent, 300) // 字符截取
+		cleanContent = safeTruncate(cleanContent, 250) // 字符截取
 
 		article := model.Article{
 			Title:     item.Title,
