@@ -1,10 +1,10 @@
 {
   "meta": {
-    "fetch_time": "2025-07-17 10:08:16",
+    "fetch_time": "2025-07-17 17:22:04",
     "friend_count": 28,
-    "success_count": 17,
-    "fail_count": 11,
-    "article_count": 83
+    "success_count": 18,
+    "fail_count": 10,
+    "article_count": 88
   },
   "items": [
     {
@@ -13,7 +13,8 @@
       "published": "2025-07-16 14:32:00",
       "author": "Mete0r",
       "avatar": "https://cdn.aimiliy.top/avatar/www.xscnas.top.webp",
-      "content": "Guys!又半个月没见啦，这半个月有好多人和我吐槽我的博客长时间没法正常访问哈哈哈，原因是在筹划一个大计划呢\n博客更新\n\n图床链接更新\n\n由于最近十年之约的虫洞图标被恶意刷\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2620250716\"\u003ehttps://www.xscnet.cn/posts/p2620250716\u003c/a\u003e 阅读全文。"
+      "content": "Guys!又半个月没见啦，这半个月有好多人和我吐槽我的博客长时间没法正常访问哈哈哈，原因是在筹划一个大计划呢\n博客更新\n\n图床链接更新\n\n由于最近十年之约的虫洞图标被恶意刷\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2620250716\"\u003ehttps://www.xscnet.cn/posts/p2620250716\u003c/a\u003e 阅读全文。",
+      "url": "https://www.xscnas.top/"
     },
     {
       "title": "被迫购新的充电宝",
@@ -21,7 +22,8 @@
       "published": "2025-07-16 09:05:00",
       "author": "Mete0r",
       "avatar": "https://cdn.aimiliy.top/avatar/www.xscnas.top.webp",
-      "content": "今天是个勤劳的站长呢，一天更新了两篇文章嘻嘻\n被迫购新的充电宝\n事情的起因想必大家都不陌生了，最近关于罗马仕充电宝频繁起火的新闻真是让人看得心惊胆战\u003cbr\u003e\n之前就听说过一些电子产品存在安\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p27202607162\"\u003ehttps://www.xscnet.cn/posts/p27202607162\u003c/a\u003e 阅读全文。"
+      "content": "今天是个勤劳的站长呢，一天更新了两篇文章嘻嘻\n被迫购新的充电宝\n事情的起因想必大家都不陌生了，最近关于罗马仕充电宝频繁起火的新闻真是让人看得心惊胆战\u003cbr\u003e\n之前就听说过一些电子产品存在安\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p27202607162\"\u003ehttps://www.xscnet.cn/posts/p27202607162\u003c/a\u003e 阅读全文。",
+      "url": "https://www.xscnas.top/"
     },
     {
       "title": "针对非法侵入的PCDN，我们该做些什么？",
@@ -29,7 +31,8 @@
       "published": "2025-07-15 14:50:23",
       "author": "南蛮子懋和",
       "avatar": "https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp",
-      "content": "一，做些什么\u003ca href=\"https://github.com/unclemcz/ban-pcdn-ip\"\u003ehttps://github.com/unclemcz/ban-pcdn-ip\u003c/a\u003e在ban-pcdn-ip仓库中获取使用、提交相应非法侵入站点的IP段，根据多位好友建议，亦可去雷池社区订阅一个 PCDN 的链接，基本每日更新。二，不做什么\u003ca href=\"https://console.cloud.tencent.com/edgeone\"\u003ehttps://console.cloud.tencent.com/edgeone\u003c/a\u003e\u003cbr\u003e合理使用腾讯EdgeOne，合理、有效的与境内不法分子说不。\u003cbr\u003e值得注意的是，在互联网的生态中，PCDN（Peer-to-Peer Content Delivery Network）以其低成本、高效能的特点，成为许多站长分发内容的重要选择。"
+      "content": "一，做些什么\u003ca href=\"https://github.com/unclemcz/ban-pcdn-ip\"\u003ehttps://github.com/unclemcz/ban-pcdn-ip\u003c/a\u003e在ban-pcdn-ip仓库中获取使用、提交相应非法侵入站点的IP段，根据多位好友建议，亦可去雷池社区订阅一个 PCDN 的链接，基本每日更新。二，不做什么\u003ca href=\"https://console.cloud.tencent.com/edgeone\"\u003ehttps://console.cloud\u003c/a\u003e",
+      "url": "https://www.dao.js.cn/"
     },
     {
       "title": "在html网页通过cdn引入霞鹜文楷字体教程",
@@ -37,7 +40,8 @@
       "published": "2025-07-14 11:56:00",
       "author": "幽默的小刘吖",
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
-      "content": "使用教程首先在引入cdn字体库\u003clink rel=\"stylesheet\" href=\"https://unpkg.com/lxgw-wenkai-screen-webfont@1.6.0/lxgwwenkaiscreen.css\"\u003e然后添加css代码body{\nfont-family: \"LXGW WenKai Screen\", sans-serif;\n}字体效果图"
+      "content": "使用教程首先在引入cdn字体库\u003clink rel=\"stylesheet\" href=\"https://unpkg.com/lxgw-wenkai-screen-webfont@1.6.0/lxgwwenkaiscreen.css\"\u003e然后添加css代码body{\nfont-family: \"LXGW WenKai Screen\", sans-serif;\n}字体效果图",
+      "url": "https://blog.lzch.top/"
     },
     {
       "title": "halo匿名用户显示头像",
@@ -45,7 +49,8 @@
       "published": "2025-07-11 18:03:14",
       "author": "dadamelon",
       "avatar": "https://yuubari.cn/upload/3628985i.png",
-      "content": "针对Halo评论系统因Gravatar服务在国内不稳定导致头像加载失败的问题，提出自建简易头像API的解决方案。通过Flask框架搭建服务，根据用户邮箱哈希值末尾字符返回预存的36张不同头像（0-9对应1-10，a-z对应11-36），避免上传头像的安全风险。部署时推荐使用gunicorn，并提供了生产环境启动参数说明。该方案既保证头像多样性又简化实现逻辑，未来可扩展为AI生成唯一头像的进阶方案。"
+      "content": "针对Halo评论系统因Gravatar服务在国内不稳定导致头像加载失败的问题，提出自建简易头像API的解决方案。通过Flask框架搭建服务，根据用户邮箱哈希值末尾字符返回预存的36张不同头像（0-9对应1-10，a-z对应11-36），避免上传头像的安全风险。部署时推荐使用gunicorn，并提供了生产环境启动参数说明。该方案既保证头像多样性又简化实现逻辑，未来可扩展为AI生成唯一头像的进阶方案。",
+      "url": "https://yuubari.cn/"
     },
     {
       "title": "企业微信实用操作指南",
@@ -53,7 +58,8 @@
       "published": "2025-07-11 01:09:00",
       "author": "清羽飞扬",
       "avatar": "https://blog.liushen.fun/info/avatar.ico",
-      "content": "刚开始用企业微信时，总觉得它是多余的累赘，占空间又麻烦。但用了一段时间后，意外发现它其实很好用，甚至在某些方面比普通微信更强。这篇文章就简单聊聊，正确开启企业微信的方式吧！"
+      "content": "刚开始用企业微信时，总觉得它是多余的累赘，占空间又麻烦。但用了一段时间后，意外发现它其实很好用，甚至在某些方面比普通微信更强。这篇文章就简单聊聊，正确开启企业微信的方式吧！",
+      "url": "https://blog.liushen.fun"
     },
     {
       "title": "可恶呱呱怎么改了我的密码",
@@ -61,7 +67,8 @@
       "published": "2025-07-10 22:50:56",
       "author": "mumumiko",
       "avatar": "https://yuubari.cn/upload/3628985i.png",
-      "content": "可恶呱呱修改了密码，导致今天的事情被迫结束。"
+      "content": "可恶呱呱修改了密码，导致今天的事情被迫结束。",
+      "url": "https://yuubari.cn/"
     },
     {
       "title": "江苏某些IP群体使用者侵入我服务器",
@@ -69,7 +76,8 @@
       "published": "2025-07-10 19:57:07",
       "author": "南蛮子懋和",
       "avatar": "https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp",
-      "content": "去年7月10日，山西境内IP的非法访问事件曾引发IT界的震荡，给众多网络运营者和用户造成了显著困扰，这一事件也为全行业筑牢网络安全防线提供了深刻警示。今年7月10日，我就监测到自家umami内每天只有0IP访问量的某个站点遭受来自江苏境内具有一定技术实力的IP进行非法访问，而访问次数高达两百多万次，因为采用了免费的CDN产品并未造成任何损失。针对该不法侵害他人服务器行为，我们已迅速向公安机关报案，目前警方正依法开展调查工作。据相关信息显示，此次非法访问或与基础电信运营商的外包服务环节存在关联。在行业内，电信、联通、移动等基础电信运营商为实现网络资源的高效利用、确保带宽负载均衡，以及完成每月的财务核算（即 “均账”“平账”），通常会对网络资源进行调度与优化。这一过程本是运营商内部的常规运营管理行为，旨在保障网络整体的稳定运行和服务质量。而据传闻，部分为运营商提供服务的外包商家，在执行上述均账"
+      "content": "去年7月10日，山西境内IP的非法访问事件曾引发IT界的震荡，给众多网络运营者和用户造成了显著困扰，这一事件也为全行业筑牢网络安全防线提供了深刻警示。今年7月10日，我就监测到自家umami内每天只有0IP访问量的某个站点遭受来自江苏境内具有一定技术实力的IP进行非法访问，而访问次数高达两百多万次，因为采用了免费的CDN产品并未造成任何损失。针对该不法侵害他人服务器行为，我们已迅速向公安机关报案，目前警方正依法开展调查工作。据相关信息显示，此次非法访问或与基础电信运营商的外包服务环节存在关联。在",
+      "url": "https://www.dao.js.cn/"
     },
     {
       "title": "随机二次元壁纸api",
@@ -77,7 +85,8 @@
       "published": "2025-07-09 16:48:58",
       "author": "dadamelon",
       "avatar": "https://yuubari.cn/upload/3628985i.png",
-      "content": "作者基于Flask搭建了一个图库并开发了随机图片API接口（https://img_api.yuubari.cn/api/random_image），可返回包含图片链接、尺寸、标签等详细信息的JSON数据。该接口每日限1000次访问，适合二次元壁纸爱好者探索使用，演示地址为https://yuubari.cn/random-image/。"
+      "content": "作者基于Flask搭建了一个图库并开发了随机图片API接口（https://img_api.yuubari.cn/api/random_image），可返回包含图片链接、尺寸、标签等详细信息的JSON数据。该接口每日限1000次访问，适合二次元壁纸爱好者探索使用，演示地址为https://yuubari.cn/random-image/。",
+      "url": "https://yuubari.cn/"
     },
     {
       "title": "“我输入故它在”：大语言模型的‘意识’幻象",
@@ -85,7 +94,8 @@
       "published": "2025-07-08 12:10:47",
       "author": "dadamelon",
       "avatar": "https://yuubari.cn/upload/3628985i.png",
-      "content": "当前大语言模型虽展现出拟人化能力，但本质仍是静态的预训练模型，不具备实时学习或自主思考能力。其运行机制类似计算器，仅在输入时激活处理信息，无内在意识流。未来发展面临架构创新、算力瓶颈、记忆管理和伦理道德等重大挑战。这些模型是强大工具而非意识实体，迈向真正自主AI仍需技术与社会协同突破。"
+      "content": "当前大语言模型虽展现出拟人化能力，但本质仍是静态的预训练模型，不具备实时学习或自主思考能力。其运行机制类似计算器，仅在输入时激活处理信息，无内在意识流。未来发展面临架构创新、算力瓶颈、记忆管理和伦理道德等重大挑战。这些模型是强大工具而非意识实体，迈向真正自主AI仍需技术与社会协同突破。",
+      "url": "https://yuubari.cn/"
     },
     {
       "title": "脑洞：坤门风云",
@@ -93,7 +103,8 @@
       "published": "2025-07-07 11:21:28",
       "author": "dadamelon",
       "avatar": "https://yuubari.cn/upload/3628985i.png",
-      "content": "程坤自幼被父亲送入坤门学艺，因天赋异禀却始终得不到祖师蔡坤山认可而心生怨恨。十八岁时，他在门派大比中为证明实力不惜重伤大师兄陈岩，被逐出师门。此后他游历四方改良武艺，五年后决心重返坤门复仇，誓要摧毁祖师苦心经营的基业。"
+      "content": "程坤自幼被父亲送入坤门学艺，因天赋异禀却始终得不到祖师蔡坤山认可而心生怨恨。十八岁时，他在门派大比中为证明实力不惜重伤大师兄陈岩，被逐出师门。此后他游历四方改良武艺，五年后决心重返坤门复仇，誓要摧毁祖师苦心经营的基业。",
+      "url": "https://yuubari.cn/"
     },
     {
       "title": "2025 西安之行",
@@ -101,7 +112,8 @@
       "published": "2025-07-06 14:45:00",
       "author": "Tony’s Blog",
       "avatar": "https://blog.iamsjy.com/assets/favicon.jpg",
-      "content": "注意本文有大量图片，可能会消耗较多流量，请知悉。\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言一直想去西安看看。想触摸古老的城墙，感受千年时光的沉淀。想亲眼瞧瞧，那段光辉灿烂的历史，究竟留下的什么痕迹。十三朝古都西安，我来了。\u003ca href=\"#行程\"\u003e\u003c/a\u003e行程出行时间：2025.6.19-2025.6.23日期行程Day 1钟楼 鼓楼 回民街 古城墙Day 2兵马俑 丽山园 半坡遗址Day 3西安博物院 小寨银泰城 大唐不夜城Day 4碑林博物馆Day 5陕西历史博物馆 大慈恩寺\u003ca href=\"#费用\"\u003e\u003c/a\u003e费用不少景区学生票半价，省不少钱。学生证是一定要带在身边的，检票时会检查。如果实在没带也没关系，用学信网证明也行。夏季紫外线很强，防晒衣、防晒霜和遮阳帽是必备的，需要提前准备好。这些我已经有了，就不算在费用里面了。火车票：307+261.5=568.5 元（往返）民宿：370.7"
+      "content": "注意本文有大量图片，可能会消耗较多流量，请知悉。\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言一直想去西安看看。想触摸古老的城墙，感受千年时光的沉淀。想亲眼瞧瞧，那段光辉灿烂的历史，究竟留下的什么痕迹。十三朝古都西安，我来了。\u003ca href=\"#行程\"\u003e\u003c/a\u003e行程出行时间：2025.6.19-2025.6.23日期行程Day 1钟楼 鼓楼 回民街 古城墙Day 2兵马俑 丽山园 半坡遗址Day 3西安博物院 小寨银泰城 大唐不夜城Day 4碑林博物馆Day 5陕西历史博物馆 大慈恩寺",
+      "url": "https://blog.iamsjy.com/"
     },
     {
       "title": "‌国内免费不限流CDN——EdgeOne",
@@ -109,7 +121,8 @@
       "published": "2025-07-06 00:00:00",
       "author": "薄荷の小屋",
       "avatar": "https://api.hoshiroko.com/img/avatar.jpg",
-      "content": "作为个人网站站长，CDN肯定是网站的必需品，那肯定得有！但是目前国内大厂的CDN价格都不便宜。但国外却有著名大善人CloudFlare，但是CloudFlare的免费CDN没有境内节点，境外节点在境内访问速度又很慢\n那么有没有国内的免费CDN呢？\u003cbr\u003e今天我们要研究的就是腾讯云在前段时间刚推出的EdgeOne免费版，不限流量不限访问数，全篇无广告，放心食用（"
+      "content": "作为个人网站站长，CDN肯定是网站的必需品，那肯定得有！但是目前国内大厂的CDN价格都不便宜。但国外却有著名大善人CloudFlare，但是CloudFlare的免费CDN没有境内节点，境外节点在境内访问速度又很慢\n那么有没有国内的免费CDN呢？\u003cbr\u003e今天我们要研究的就是腾讯云在前段时间刚推出的EdgeOne免费版，不限流量不限访问数，全篇无广告，放心食用（",
+      "url": "https://blog.hoshiroko.com/"
     },
     {
       "title": "音乐推荐:莫愁乡",
@@ -117,7 +130,8 @@
       "published": "2025-07-03 08:00:00",
       "author": "Mete0r",
       "avatar": "https://cdn.aimiliy.top/avatar/www.xscnas.top.webp",
-      "content": "最近刷视频的时候，听到了一位新晋说唱歌手的歌曲\u003cbr\u003e\n起初我认为和其他新人一样写的都是一些口水歌，没有什么营养\u003cbr\u003e\n但真的当我听过这首歌的时候，我感觉是我带着有色眼镜了\n莫愁乡--亞細亞曠世奇才\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2520250703\"\u003ehttps://www.xscnet.cn/posts/p2520250703\u003c/a\u003e 阅读全文。"
+      "content": "最近刷视频的时候，听到了一位新晋说唱歌手的歌曲\u003cbr\u003e\n起初我认为和其他新人一样写的都是一些口水歌，没有什么营养\u003cbr\u003e\n但真的当我听过这首歌的时候，我感觉是我带着有色眼镜了\n莫愁乡--亞細亞曠世奇才\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2520250703\"\u003ehttps://www.xscnet.cn/posts/p2520250703\u003c/a\u003e 阅读全文。",
+      "url": "https://www.xscnas.top/"
     },
     {
       "title": "浅谈AIGC论文检测",
@@ -125,7 +139,8 @@
       "published": "2025-07-01 19:32:00",
       "author": "清羽飞扬",
       "avatar": "https://blog.liushen.fun/info/avatar.ico",
-      "content": "六月初的我刚提交论文，如今六月将尽，才有心情回顾那段被AIGC检测折磨的经历。当前主流的AIGC检测工具普遍存在逻辑简单、误判率高的问题，只要语句稍显严谨、条理清晰，便容易被认定为AI生成。本文将就此简单谈谈个人感受与看法。"
+      "content": "六月初的我刚提交论文，如今六月将尽，才有心情回顾那段被AIGC检测折磨的经历。当前主流的AIGC检测工具普遍存在逻辑简单、误判率高的问题，只要语句稍显严谨、条理清晰，便容易被认定为AI生成。本文将就此简单谈谈个人感受与看法。",
+      "url": "https://blog.liushen.fun"
     },
     {
       "title": "隙光絮语：日常纪事--夏至",
@@ -133,7 +148,8 @@
       "published": "2025-06-29 23:51:46",
       "author": "晚夜",
       "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=1463656527\u0026spec=640",
-      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"002I4cnT4cR1hL\" type=\"song\"/]\u003cbr\u003e[/hplayer]晚上好朋友们，这篇文章也是搁置很久了，前几周一直在准备期末，现在终于可以着手编辑发出来了以下内容可能不具有时效性，本文章是从6.21开始记录的哦6.21，迎来了夏季的第四个节气-夏至这一天也是一年中白昼最长的日子人间晴好，万物繁盛，一起迎接充满活力的盛夏吧！--央视新闻这几天是真闷哇 班上空调在梅雨季节直接失效了，只有在烈日天才管用每天中午饭吃完回教室都得缓一会儿，梅雨季节是真的难受啊::aru:knife::考试周是的，下周就要期末考试了，考完试按照以往高三的做法应该是先放三天然后再开始暑假补课好多大学现在都放假了 是谁羡慕我不说::douyin:3::明年也是可以体验到超长暑假了~当考试周遇上梅雨季...一到下雨就感觉浑"
+      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"002I4cnT4cR1hL\" type=\"song\"/]\u003cbr\u003e[/hplayer]晚上好朋友们，这篇文章也是搁置很久了，前几周一直在准备期末，现在终于可以着手编辑发出来了以下内容可能不具有时效性，本文章是从6.21开始记录的哦6.21，迎来了夏季的第四个节气-夏至这一天也是一年中白昼最长的日子人间晴好，万物繁盛，一起迎接充满活力的盛夏吧！--央视新闻这几天是真闷哇 班上空调在梅雨季节直接失效了，只有在烈日天才管",
+      "url": "https://www.iczrx.cn/"
     },
     {
       "title": "2025六月小结:长时间的等待",
@@ -141,7 +157,8 @@
       "published": "2025-06-29 08:00:00",
       "author": "Mete0r",
       "avatar": "https://cdn.aimiliy.top/avatar/www.xscnas.top.webp",
-      "content": "\u003cbr\u003e\n\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2420250629\"\u003ehttps://www.xscnet.cn/posts/p2420250629\u003c/a\u003e 阅读全文。"
+      "content": "\u003cbr\u003e\n\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2420250629\"\u003ehttps://www.xscnet.cn/posts/p2420250629\u003c/a\u003e 阅读全文。",
+      "url": "https://www.xscnas.top/"
     },
     {
       "title": "加拿大:加拿大授时台CHU收听报告附QSL卡 / 无线电篇005",
@@ -149,7 +166,8 @@
       "published": "2025-06-28 10:14:34",
       "author": "zuanshijia’s blog",
       "avatar": "https://zuanshijia.top/img/favicon.png",
-      "content": ""
+      "content": "",
+      "url": "https://zuanshijia.top"
     },
     {
       "title": "腾讯云EdgeOne免费套餐上手体验",
@@ -157,7 +175,8 @@
       "published": "2025-06-21 17:50:00",
       "author": "白雾林",
       "avatar": "https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400",
-      "content": "事先叠个甲，我没有因为写这篇文章得到任何好处，只是单纯地记录自己的体验。近期，腾讯云国际站的EdgeOne产品推出了免费版内测，且不限制流量，使用了两天之后感觉非常不错。目前对于国内个人站长而言，体验确实是优于Cloudflare的，毕竟备案域名支持含中国大陆的全球CDN加速与防护。本文只从个人角度出发，评价一下该产品的优缺点，因此无法保证全面性与准确性，很多细节还需亲自体验。另外，免费套餐目前属于兑换码获取内测权限的阶段，暂未公开上线，申请方式我会放在文末。加速区域\u0026限额加速区域和套餐内限额一定是绝大多数人最关心的问题。否则，以Cloudflare的现状，几乎没有什么理由转移到EdgeOne。目前EdgeOne套餐兑换后，计费页面显示的是永久有效。一个套餐仅可绑定一个顶级域名，子域名限制数量为200个，正常使用完全是足够了。且免费版不限制流量、请求数和加速区域，但若加速区域包含中国大陆，"
+      "content": "事先叠个甲，我没有因为写这篇文章得到任何好处，只是单纯地记录自己的体验。近期，腾讯云国际站的EdgeOne产品推出了免费版内测，且不限制流量，使用了两天之后感觉非常不错。目前对于国内个人站长而言，体验确实是优于Cloudflare的，毕竟备案域名支持含中国大陆的全球CDN加速与防护。本文只从个人角度出发，评价一下该产品的优缺点，因此无法保证全面性与准确性，很多细节还需亲自体验。另外，免费套餐目前属于兑换码获取内测权限的阶段，暂未公开上线，申请方式我会放在文末。加速区域\u0026限额加速区域和套餐内限额一",
+      "url": "https://www.baiwulin.com"
     },
     {
       "title": "腾讯EdgeOne免费国内CDN",
@@ -165,7 +184,8 @@
       "published": "2025-06-21 13:12:00",
       "author": "清羽飞扬",
       "avatar": "https://blog.liushen.fun/info/avatar.ico",
-      "content": "最近各类公益CDN层出不穷，个人站长迎来新机遇。阿里、腾讯相继推出免费CDN套餐，门槛低、易上手。机缘巧合我拿到腾讯海外站EdgeOne的免费套餐兑换码，立刻上手体，整体表现非常流畅，配置简单，速度也令人满意。这篇也将简要说明一下我的使用感受。"
+      "content": "最近各类公益CDN层出不穷，个人站长迎来新机遇。阿里、腾讯相继推出免费CDN套餐，门槛低、易上手。机缘巧合我拿到腾讯海外站EdgeOne的免费套餐兑换码，立刻上手体，整体表现非常流畅，配置简单，速度也令人满意。这篇也将简要说明一下我的使用感受。",
+      "url": "https://blog.liushen.fun"
     },
     {
       "title": "日本:NHK-World收听报告附QSL卡 / 无线电篇004",
@@ -173,7 +193,8 @@
       "published": "2025-06-21 12:08:56",
       "author": "zuanshijia’s blog",
       "avatar": "https://zuanshijia.top/img/favicon.png",
-      "content": ""
+      "content": "",
+      "url": "https://zuanshijia.top"
     },
     {
       "title": "关于加入腾讯云自媒体分享计划",
@@ -181,7 +202,8 @@
       "published": "2025-06-20 12:18:52",
       "author": "南蛮子懋和",
       "avatar": "https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp",
-      "content": "小道呢，作为一个坚持写了十几年技术博客、分享道学观点的人，我太懂那种无人问津的挫败感了。每次熬夜整理干货，反复打磨文章结构，满心期待发布后能得到一些反馈，结果好几天过去，后台浏览量始终停留在个位数。看着那些倾注心血的文字，就像被遗忘在角落的宝藏，心里真不是滋味。更让人焦虑的是，每年服务器续费的时候，那笔不小的费用都让我犹豫要不要继续坚持，毕竟投入和产出完全不成正比。直到前几年偶然间了解到腾讯云自媒体分享计划，抱着试一试的心态提交了申请。没想到，腾讯云并没有察觉到我十几年原创的决心，显然是没有申请通过的，给我提示“你提交的腾讯云自媒体同步曝光计划因技术文章质量不符合投稿要求原因，未审核通过。请重新提交申请。”小道在想，我原创技术、观点、论述的个人博客已经存在了近18年了。已经超越了腾讯云要求的只要博客里有 10 篇以上符合要求的原创技术文章就能申请，想着自己友链的朋友们告诉我这个申请操作也很"
+      "content": "小道呢，作为一个坚持写了十几年技术博客、分享道学观点的人，我太懂那种无人问津的挫败感了。每次熬夜整理干货，反复打磨文章结构，满心期待发布后能得到一些反馈，结果好几天过去，后台浏览量始终停留在个位数。看着那些倾注心血的文字，就像被遗忘在角落的宝藏，心里真不是滋味。更让人焦虑的是，每年服务器续费的时候，那笔不小的费用都让我犹豫要不要继续坚持，毕竟投入和产出完全不成正比。直到前几年偶然间了解到腾讯云自媒体分享计划，抱着试一试的心态提交了申请。没想到，腾讯云并没有察觉到我十几年原创的决心，显然是没有申请",
+      "url": "https://www.dao.js.cn/"
     },
     {
       "title": "有关胖东来商业模式的思考记录",
@@ -189,7 +211,8 @@
       "published": "2025-06-19 23:52:00",
       "author": "白雾林",
       "avatar": "https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400",
-      "content": "引言有关胖东来的各种新闻和话题，早已多到让我有点厌烦的地步。但我对胖东来仍有一丝好奇——中国做零售的企业这么多，为什么其它企业比不过胖东来？为什么胖东来不扩张自己的门店覆盖范围？在查阅了部分资料，并听过一些专业人士的分析后，我逐渐对上述问题有了比较清晰的答案，也对胖东来这家企业的运营有了更加深刻的认知。因此，这篇博文将写一写我的调查结果以作记录，所有内容仅代表个人观点。超市不赚钱胖东来出名的其中一点，就是员工的薪资待遇极高、福利好。这一看似会让企业自身吃亏的做法，实则是一个良性循环的开始。其它零售企业不会不明白这个道理，再不济，适当效仿也是绝对值得的。但事实是，中国没有几家类似的企业可以做到。学习胖东来效果最好的永辉超市，也只是在极小的几家门店范围内可以勉强效仿——要知道，永辉超市的体量远大于胖东来。那么，同行的企业不效仿胖东来的原因就十分明了了——不是不想，而是做不到。为什么做不到？不单"
+      "content": "引言有关胖东来的各种新闻和话题，早已多到让我有点厌烦的地步。但我对胖东来仍有一丝好奇——中国做零售的企业这么多，为什么其它企业比不过胖东来？为什么胖东来不扩张自己的门店覆盖范围？在查阅了部分资料，并听过一些专业人士的分析后，我逐渐对上述问题有了比较清晰的答案，也对胖东来这家企业的运营有了更加深刻的认知。因此，这篇博文将写一写我的调查结果以作记录，所有内容仅代表个人观点。超市不赚钱胖东来出名的其中一点，就是员工的薪资待遇极高、福利好。这一看似会让企业自身吃亏的做法，实则是一个良性循环的开始。其它零",
+      "url": "https://www.baiwulin.com"
     },
     {
       "title": "【限时活动】com域名首年只需要20元一年？",
@@ -197,7 +220,8 @@
       "published": "2025-06-15 15:36:00",
       "author": "幽默的小刘吖",
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
-      "content": "spaceship为了迎接618活动，限时推出20元首年注册com域名，库存没多少了，快来抢购吧\u003cbr\u003e\u003cbr\u003espaceship介绍Spaceship是国外知名的低价域名注册商Namecheap的子公司，不但有全新设计的UI用户界面，而且有更低廉的价格，同样的，提供免费的Whois隐私保护。商家后台还可以选择中文语言，支持支付宝、visa等付款方式优惠领取教程{hide}\u003cbr\u003e优惠码: compros\u003cbr\u003e\u003cbr\u003e{/hide}"
+      "content": "spaceship为了迎接618活动，限时推出20元首年注册com域名，库存没多少了，快来抢购吧\u003cbr\u003e\u003cbr\u003espaceship介绍Spaceship是国外知名的低价域名注册商Namecheap的子公司，不但有全新设计的UI用户界面，而且有更低廉的价格，同样的，提供免费的Whois隐私保护。商家后台还可以选择中文语言，支持支付宝、visa等付款方式优惠领取教程{hide}\u003cbr\u003e优惠码: compros\u003cbr\u003e\u003cbr\u003e{/hide}",
+      "url": "https://blog.lzch.top/"
     },
     {
       "title": "Cloudflare/Vercel项目推荐(5)",
@@ -205,7 +229,8 @@
       "published": "2025-06-12 21:12:00",
       "author": "清羽飞扬",
       "avatar": "https://blog.liushen.fun/info/avatar.ico",
-      "content": "项目荒啦！终于凑够了一批项目，前面四期深受大家喜爱，获得了不少评论和浏览量，那就更新一篇文章吧！本次更新主要围绕着cloudflare和Vercel展开，基本上都可以零成本部署，欢迎尝试部署！当然我也会提供预览地址，如果用处较大会一直维护，欢迎访问呀！"
+      "content": "项目荒啦！终于凑够了一批项目，前面四期深受大家喜爱，获得了不少评论和浏览量，那就更新一篇文章吧！本次更新主要围绕着cloudflare和Vercel展开，基本上都可以零成本部署，欢迎尝试部署！当然我也会提供预览地址，如果用处较大会一直维护，欢迎访问呀！",
+      "url": "https://blog.liushen.fun"
     },
     {
       "title": "alist不再免费开源？新版本被投毒了？",
@@ -213,7 +238,8 @@
       "published": "2025-06-11 19:58:00",
       "author": "幽默的小刘吖",
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
-      "content": "在今天早上，alist的原作者将正式alist开源项目卖给贵州不够科技有限公司，后续可能会变成付费项目\u003cbr\u003e\u003cbr\u003e但是这家公司的名声非常不好，之前爆光出投毒事件，真不明白为什么alist原作者会卖给这种垃圾公司\u003cbr\u003e我还是很理解原作者的，一直免费开源，从来没收过一分钱，也许是长期的做公益实在是无法再运营下来了。因为alist的原作者将alist卖给别人，现在官方群炸开锅了，骂声一片，真不明白喷原作者的人是怎么想的，给你免费用这么久还不知足。原作者也是被逼无奈，人家作者也是要生活的。现在新版本的alist已经被这家公司投毒了，过段时间可能就会改成付费项目了。旧版本3.4短期内还能正常使用，但是原作者已经不再维护旧版本了，可能会存在安全问题。长久的打算的话，那还是建议各位不使用alist。以上就是本期内容，感谢大家对我的支持"
+      "content": "在今天早上，alist的原作者将正式alist开源项目卖给贵州不够科技有限公司，后续可能会变成付费项目\u003cbr\u003e\u003cbr\u003e但是这家公司的名声非常不好，之前爆光出投毒事件，真不明白为什么alist原作者会卖给这种垃圾公司\u003cbr\u003e我还是很理解原作者的，一直免费开源，从来没收过一分钱，也许是长期的做公益实在是无法再运营下来了。因为alist的原作者将alist卖给别人，现在官方群炸开锅了，骂声一片，真不明白喷原作者的人是怎么想的，给你免费用这么久还不知足。原作者也是被逼无奈，人家作者也是要生活的。现在新版",
+      "url": "https://blog.lzch.top/"
     },
     {
       "title": "粽叶飘香-金榜题名时 | 愿每一位学子取得优异的成绩！",
@@ -221,7 +247,8 @@
       "published": "2025-06-06 16:50:00",
       "author": "晚夜",
       "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=1463656527\u0026spec=640",
-      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"0024qkg32eglL5\" type=\"song\"/]\u003cbr\u003e[/hplayer]“青年是早晨的太阳，希望寄托在青年身上。”-江苏省考区高考播音首句话（此时应响起《真心英雄》）六月，一个充满生机、奋发向上的月份六月初，寒窗苦读十二载，终于在此刻的高考画上了圆满的句号，从今往后的大把好时光都在等着你六月中旬，中考，初三学子们即将踏入高中的大门，面对新的领域、文理分科、专业选择等此时或与还有些稚嫩与迷茫，但在不久的将来，你将做出人生中第一个重要的选择-决定着未来几十年的去向六月下旬，期末考试，过了期末考就是暑假捏！初三、高三的孩子们即将迎来超长暑假，尽情的玩耍吧！此刻是人生中最痛快的两个时期。............最后，祝每一位初三、高三学子：中/高考加油，胜利是属于你们的，愿你们金榜题名，鱼跃龙门，不负韶"
+      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"0024qkg32eglL5\" type=\"song\"/]\u003cbr\u003e[/hplayer]“青年是早晨的太阳，希望寄托在青年身上。”-江苏省考区高考播音首句话（此时应响起《真心英雄》）六月，一个充满生机、奋发向上的月份六月初，寒窗苦读十二载，终于在此刻的高考画上了圆满的句号，从今往后的大把好时光都在等着你六月中旬，中考，初三学子们即将踏入高中的大门，面对新的领域、文理分科、专业选择等此时或与还有些稚嫩与迷茫，但在不久的",
+      "url": "https://www.iczrx.cn/"
     },
     {
       "title": "GoEdge v1.3.9旧版本cdn系统一键部署教程",
@@ -229,7 +256,8 @@
       "published": "2025-06-05 09:07:00",
       "author": "幽默的小刘吖",
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
-      "content": "GoEdge是一个功能强大且免费开源的cdn系统，但是新版本含有病毒，可能会跳转黄色网站，听别人说是GoEdge卖给黑产公司了，最好别安装新版本。由于是官包+注册码离线激活，且屏蔽了官方域名通信，存在后门的概率不大\u003cbr\u003e\u003cbr\u003e推荐安装1.3.9旧版本，这个版本目前没病毒，那么今天教大家安装旧版本的GoEdge。安装命令(推荐)sudo curl -s https://static-file-global.353355.xyz/goedge/edge-admin-install.sh | bash如果您的服务器在国内，可以执行以下命令sudo curl -s https://static-file-global.353355.xyz/goedge/edge-admin-install-cn.sh | bash{message type=\"warning\" content=\"国内源不保证可"
+      "content": "GoEdge是一个功能强大且免费开源的cdn系统，但是新版本含有病毒，可能会跳转黄色网站，听别人说是GoEdge卖给黑产公司了，最好别安装新版本。由于是官包+注册码离线激活，且屏蔽了官方域名通信，存在后门的概率不大\u003cbr\u003e\u003cbr\u003e推荐安装1.3.9旧版本，这个版本目前没病毒，那么今天教大家安装旧版本的GoEdge。安装命令(推荐)sudo curl -s https://static-file-global.353355.xyz/goedge/edge-admin-install.sh | ba",
+      "url": "https://blog.lzch.top/"
     },
     {
       "title": "安卓设备搭建 Minecraft 服务器",
@@ -237,7 +265,8 @@
       "published": "2025-06-04 00:00:00",
       "author": "岚天小窝",
       "avatar": "https://cdn.aimiliy.top/pic/5af06b461740fb2bd7467b8561399703.png",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言临近暑假，打算开个天境模组服务器，弥补下同年，但是家里云和电脑的配置都不尽人意，所以试试性能更强、能效更好的 arm 平台。\u003ca href=\"#准备-Linux-环境\"\u003e\u003c/a\u003e准备 Linux 环境\u003ca href=\"#解决高版本安卓系统杀进程\"\u003e\u003c/a\u003e解决高版本安卓系统杀进程如果你的 Android 版本高于 11, 则系统会限制32个线程，需要额外操作。请看这篇文章解决问题: \u003ca href=\"https://www.hestudio.net/posts/Solve-32-restrictions-of-Android-12-restrictions.html\"\u003e解决安卓12限制32个线程\u003c/a\u003e\u003ca href=\"#安装-Termux\"\u003e\u003c/a\u003e安装 Termux下载地址: "
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言临近暑假，打算开个天境模组服务器，弥补下同年，但是家里云和电脑的配置都不尽人意，所以试试性能更强、能效更好的 arm 平台。\u003ca href=\"#准备-Linux-环境\"\u003e\u003c/a\u003e准备 Linux 环境\u003ca href=\"#解决高版本安卓系统杀进程\"\u003e\u003c/a\u003e解决高版本安卓系统杀进程如果你的 Android 版本高于 11, 则系统会限制32个线程，需要额外操作。请看这篇文章解决问题: ",
+      "url": "https://blog.ltya.top"
     },
     {
       "title": "突然有感",
@@ -245,7 +274,8 @@
       "published": "2025-06-02 03:06:55",
       "author": "拂晓不辍",
       "avatar": "https://cdn.aimiliy.top/avatar/touxiang.webp",
-      "content": "至始至终就没有体会到过什么父爱母爱，明明家境不是很差却总是得不到想要的东西，即使得到也是很艰难或者需要相同的回报，看着表妹的生活很丰富，我在想为什么两个差不多的家庭，对方的三个兄弟姐妹能过的很开心，而我却差太多。我爹总是问我为什么不挂念父母，我总想笑笑。"
+      "content": "至始至终就没有体会到过什么父爱母爱，明明家境不是很差却总是得不到想要的东西，即使得到也是很艰难或者需要相同的回报，看着表妹的生活很丰富，我在想为什么两个差不多的家庭，对方的三个兄弟姐妹能过的很开心，而我却差太多。我爹总是问我为什么不挂念父母，我总想笑笑。",
+      "url": "https://o331.fun"
     },
     {
       "title": "1Panel自动同步Github仓库",
@@ -253,7 +283,8 @@
       "published": "2025-06-01 14:00:21",
       "author": "清羽飞扬",
       "avatar": "https://blog.liushen.fun/info/avatar.ico",
-      "content": "之前使用的是宝塔面板，由于自带webhook，所以可以很方便的同步github仓库，达到更新网站的功能，但是由于目前转移到了1Panel，每次更新文章后都需要手动拉取，略显麻烦，所以研究了一下，最重使用action执行ssh链接并执行命令解决了这个问题。"
+      "content": "之前使用的是宝塔面板，由于自带webhook，所以可以很方便的同步github仓库，达到更新网站的功能，但是由于目前转移到了1Panel，每次更新文章后都需要手动拉取，略显麻烦，所以研究了一下，最重使用action执行ssh链接并执行命令解决了这个问题。",
+      "url": "https://blog.liushen.fun"
     },
     {
       "title": "宝峰5rhPro的APRS功能",
@@ -261,7 +292,8 @@
       "published": "2025-05-28 20:01:50",
       "author": "某科学的贝壳",
       "avatar": "https://img.misaka.pics/i/1/23/01/30/63d755db9649a.ico",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言相信很多人购买 5RH Pro 手台，是因为它功能丰富且具备 10W 的发射功率。我手上的这台 5RH Pro 来自朋友，由我代为保管，经朋友同意后对机器的功能和硬件进行了测试。先说结论：能用，但体验并不是很好。该机仅支持 GPS 定位，且并不能保证在室内接收到 GPS 信号；获取定位速度也极慢，在开阔场地通常需要 2 分钟以上才能定位成功。定位成功后即可发送 APRS 信息，当然也可以手动输入经纬度来发送。本篇文章仅适用于 5RH Pro。至于 5R-H Ham 版本，博主未做研究，也暂无精力深入探讨。写本篇文章的原因是网上没有相关的公开资料，唯一的参考只在某个 Ham 论坛中，但该内容未向搜索引擎开放。文末我会将引用资料附上，希望能对拥有 5RH Pro 的各位 Ham 略有帮助。\u003ca href=\"#环境配置\"\u003e\u003c/a\u003e环境配置首先依次打开 菜单"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言相信很多人购买 5RH Pro 手台，是因为它功能丰富且具备 10W 的发射功率。我手上的这台 5RH Pro 来自朋友，由我代为保管，经朋友同意后对机器的功能和硬件进行了测试。先说结论：能用，但体验并不是很好。该机仅支持 GPS 定位，且并不能保证在室内接收到 GPS 信号；获取定位速度也极慢，在开阔场地通常需要 2 分钟以上才能定位成功。定位成功后即可发送 APRS 信息，当然也可以手动输入经纬度来发送。本篇文章仅适用于 5RH Pro。至于 5R-H",
+      "url": "https://blog.ning.moe"
     },
     {
       "title": "近期处理侵权的一些截图和感想",
@@ -269,7 +301,8 @@
       "published": "2025-05-26 13:35:09",
       "author": "南蛮子懋和",
       "avatar": "https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp",
-      "content": "近期，经多方反馈及核查发现，在境内的所有搜索引擎检索与本人（李懋和，曾用道名 “南蛮子懋和”“懋和道人”，又名李至臣）相关的道名、姓名及美术著作权对应名称时，出现跳转至域名为 *.lizhichen.cn 相关页面的异常情况。为澄清事实、明确法律责任，现严正声明如下：\u003ca href=\"https://www.dao.js.cn/new/2025052611787.shtml\"\u003ehttps://www.dao.js.cn/new/2025052611787.shtml\u003c/a\u003e\u003cbr\u003e在出现问题的百度搜索引擎、站长之家、爱站网、5118的相关渠道处理的动态如下，后续如果排查到更多的侵权内容，我们也会继续更新本篇文章。目前均是聊天记录的完全截图（隐私信息隐藏）及相关平台的处理结果截图（图片模糊请邮件放大图片），整体处理流程和结果还是饱和满意度的，不过仅有一家企业有侵权内容了，还有点削微的耀武扬威"
+      "content": "近期，经多方反馈及核查发现，在境内的所有搜索引擎检索与本人（李懋和，曾用道名 “南蛮子懋和”“懋和道人”，又名李至臣）相关的道名、姓名及美术著作权对应名称时，出现跳转至域名为 *.lizhichen.cn 相关页面的异常情况。为澄清事实、明确法律责任，现严正声明如下：\u003ca href=\"https://www.dao.js.cn/new/2025052611787.shtml\"\u003ehttps://www.dao.js.cn/new/2025052611787.shtml\u003c/a\u003e\u003cbr\u003e在出现问题的百",
+      "url": "https://www.dao.js.cn/"
     },
     {
       "title": "法律声明",
@@ -277,7 +310,8 @@
       "published": "2025-05-26 12:40:48",
       "author": "南蛮子懋和",
       "avatar": "https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp",
-      "content": "近期，经多方反馈及核查发现，在境内的所有搜索引擎检索与本人（李懋和，曾用道名 “南蛮子懋和”“懋和道人”，又名李至臣）相关的道名、姓名及美术著作权对应名称时，出现跳转至域名为 *.lizhichen.cn相关页面的异常情况。为澄清事实、明确法律责任，现严正声明如下：一、公司沿革与域名权属变更原公司域名处置：原南通伍林堂文化传播有限公司（已注销）曾持有域名为lizhichen.cn的网络服务。在企业申请注销前，已依法完成lizhichen.cn域名的转让交易，并在交易前期已经通过法定程序发布《关于注销、转让域名后展现内容及数据的法律声明》，明确注销后该域名及对应内容的法律责任与本公司无关。业务继承与新域名启用：通州伍林堂网络工作室（个体工商户，统一社会信用代码：92320612MADPPLUT5D）依照《通州伍林堂网络工作室成立声明》作为南通伍林堂文化传播有限公司业务承接主体，依法继承其合法"
+      "content": "近期，经多方反馈及核查发现，在境内的所有搜索引擎检索与本人（李懋和，曾用道名 “南蛮子懋和”“懋和道人”，又名李至臣）相关的道名、姓名及美术著作权对应名称时，出现跳转至域名为 *.lizhichen.cn相关页面的异常情况。为澄清事实、明确法律责任，现严正声明如下：一、公司沿革与域名权属变更原公司域名处置：原南通伍林堂文化传播有限公司（已注销）曾持有域名为lizhichen.cn的网络服务。在企业申请注销前，已依法完成lizhichen.cn域名的转让交易，并在交易前期已经通过法定程序发布《关于",
+      "url": "https://www.dao.js.cn/"
     },
     {
       "title": "2025五月小结:音乐节初体验",
@@ -285,7 +319,8 @@
       "published": "2025-05-26 08:00:00",
       "author": "Mete0r",
       "avatar": "https://cdn.aimiliy.top/avatar/www.xscnas.top.webp",
-      "content": "📅 五月总结\n\n这次的经历让我心情很是愉悦呢~\u003cbr\u003e\n2025年5月24日 -- 心情晴\u003cbr\u003e\n\u003cmeting-js\u003cbr\u003e\nserver=\"netease\"\u003cbr\u003e\ntype=\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2320250524\"\u003ehttps://www.xscnet.cn/posts/p2320250524\u003c/a\u003e 阅读全文。"
+      "content": "📅 五月总结\n\n这次的经历让我心情很是愉悦呢~\u003cbr\u003e\n2025年5月24日 -- 心情晴\u003cbr\u003e\n\u003cmeting-js\u003cbr\u003e\nserver=\"netease\"\u003cbr\u003e\ntype=\n\u003cbr\u003e访问 \u003ca href=\"https://www.xscnet.cn/posts/p2320250524\"\u003ehttps://www.xscnet.cn/posts/p2320250524\u003c/a\u003e 阅读全文。",
+      "url": "https://www.xscnas.top/"
     },
     {
       "title": "关于魔改Artalk评论区Placeholder这件事",
@@ -293,7 +328,26 @@
       "published": "2025-05-26 01:11:22",
       "author": "时隐重工",
       "avatar": "https://shiyina.com:233/favicon.ico",
-      "content": "让不同的页面有不同的评论框占位文字 众所都周知的是artalk是有修改全局评论框占位文字的功能 就在后台 设置\u003e页面配置\u003e评论框占位文字 但如果你想让每个页面都拥有不同的评论框占位文字该怎么办呢 虽然我翻阅了Artalk的文档之后似乎有人提了Issue建议加一个类似 Twikoo 的 onComme"
+      "content": "让不同的页面有不同的评论框占位文字 众所都周知的是artalk是有修改全局评论框占位文字的功能 就在后台 设置\u003e页面配置\u003e评论框占位文字 但如果你想让每个页面都拥有不同的评论框占位文字该怎么办呢 虽然我翻阅了Artalk的文档之后似乎有人提了Issue建议加一个类似 Twikoo 的 onComme",
+      "url": "https://shiyin.cafe/"
+    },
+    {
+      "title": "主动式网站状态监测实现及其应用",
+      "link": "https://www.drluo.top/posts/11575",
+      "published": "2025-05-22 18:47:53",
+      "author": "洛屿的小站",
+      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
+      "content": "近期有为博客添加网站状态监测页面的想法，可以监测友链的存活状态等\n但是根据搜到的，可以使用UptimeRobot进行监测。但是其中的一些操作，比如调整监测页面链接需要进行包月付费\n本着能省则省的原则，便想着不如着手实现一下主动监测。",
+      "url": "https://www.drluo.top/"
+    },
+    {
+      "title": "右键菜单加入用Trae打开文件和文件夹",
+      "link": "https://www.drluo.top/posts/32731",
+      "published": "2025-05-21 22:07:32",
+      "author": "洛屿的小站",
+      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
+      "content": "效果如下",
+      "url": "https://www.drluo.top/"
     },
     {
       "title": "说说：#1747540558",
@@ -301,7 +355,8 @@
       "published": "2025-05-18 11:55:58",
       "author": "拂晓不辍",
       "avatar": "https://cdn.aimiliy.top/avatar/touxiang.webp",
-      "content": "我要认识新的人，开始新的生活"
+      "content": "我要认识新的人，开始新的生活",
+      "url": "https://o331.fun"
     },
     {
       "title": "butterfly主题即刻短文搭建教程",
@@ -309,7 +364,8 @@
       "published": "2025-05-18 10:44:52",
       "author": "zuanshijia’s blog",
       "avatar": "https://zuanshijia.top/img/favicon.png",
-      "content": ""
+      "content": "",
+      "url": "https://zuanshijia.top"
     },
     {
       "title": "第39届扬子石化杯试题及答案",
@@ -317,7 +373,8 @@
       "published": "2025-05-18 08:45:00",
       "author": "晚夜",
       "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=1463656527\u0026spec=640",
-      "content": "在高中知识全学完并不断拓展大学化学的情况下应该不会再提前一个小时交卷了果然主播是不擅长竞赛的，看到竞赛题两眼一黑(石化)还是老老实实搞高考吧这次月考也是真奇葩，语文数学倒十，英物化政前十，愣是极限拉分唉下次不能再摆了，这个月一直在开摆"
+      "content": "在高中知识全学完并不断拓展大学化学的情况下应该不会再提前一个小时交卷了果然主播是不擅长竞赛的，看到竞赛题两眼一黑(石化)还是老老实实搞高考吧这次月考也是真奇葩，语文数学倒十，英物化政前十，愣是极限拉分唉下次不能再摆了，这个月一直在开摆",
+      "url": "https://www.iczrx.cn/"
     },
     {
       "title": "用Docker-compose部署halo博客教程",
@@ -325,7 +382,17 @@
       "published": "2025-05-17 15:09:00",
       "author": "幽默的小刘吖",
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
-      "content": "今天教大家使用Docker-compose安装halo博客，只需要5分钟即可完成搭建。\u003cbr\u003e项目介绍Halo是凌霞飞致云旗下的一款强大易用的开源博客建站系统，它让你无需太多的技术知识，新手小白也可以快速搭建一个博客、网站或者内容管理系统。\u003cbr\u003e环境要求服务器需要先安装Docker和Docker-compose{collapse}\u003cbr\u003e{collapse-item label=\"安装Docker教程\" open}\u003cbr\u003e大家可以前往Docker官网下载，官方教程\u003ca href=\"https://docs.docker.net.cn/engine/install/\"\u003ehttps://docs.docker.net.cn/engine/install/\u003c/a\u003e\u003cbr\u003e{/collapse-item}\u003cbr\u003e{/collapse}安装教程首先来到服务器根目录，输入命令创建一个文件夹mkdir"
+      "content": "今天教大家使用Docker-compose安装halo博客，只需要5分钟即可完成搭建。\u003cbr\u003e项目介绍Halo是凌霞飞致云旗下的一款强大易用的开源博客建站系统，它让你无需太多的技术知识，新手小白也可以快速搭建一个博客、网站或者内容管理系统。\u003cbr\u003e环境要求服务器需要先安装Docker和Docker-compose{collapse}\u003cbr\u003e{collapse-item label=\"安装Docker教程\" open}\u003cbr\u003e大家可以前往Docker官网下载，官方教程",
+      "url": "https://blog.lzch.top/"
+    },
+    {
+      "title": "三角洲行动ID映射表",
+      "link": "https://www.drluo.top/posts/55524",
+      "published": "2025-05-15 20:19:49",
+      "author": "洛屿的小站",
+      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
+      "content": "三角洲行动id映射表，角色、枪械、积分等。\n你可以在github上找到本页面相应数据以及后续更新：\n\u003ca href=\"https://github.com/luoy-oss/deltaforce_id\"\u003eluoy-oss\u003c/a\u003e",
+      "url": "https://www.drluo.top/"
     },
     {
       "title": "说说：#1747038339",
@@ -333,7 +400,8 @@
       "published": "2025-05-12 16:25:39",
       "author": "拂晓不辍",
       "avatar": "https://cdn.aimiliy.top/avatar/touxiang.webp",
-      "content": "无语，做了个论坛，因为模板也是N7，但是还没有签到的功能插件，就跑去问某论坛的站长，本来之前就给他打了66.66，说准备请教他论坛上面的事，结果倒好就因为我没找到这插件，直接让我他妈别问他了，明明就是插件改名了，也不截图给我看，我咋知道到底是哪一个，真服了，装啥啊？？"
+      "content": "无语，做了个论坛，因为模板也是N7，但是还没有签到的功能插件，就跑去问某论坛的站长，本来之前就给他打了66.66，说准备请教他论坛上面的事，结果倒好就因为我没找到这插件，直接让我他妈别问他了，明明就是插件改名了，也不截图给我看，我咋知道到底是哪一个，真服了，装啥啊？？",
+      "url": "https://o331.fun"
     },
     {
       "title": "月夜杂技 | 月末随笔-总结过去，庆祝五一",
@@ -341,7 +409,8 @@
       "published": "2025-05-10 20:51:00",
       "author": "晚夜",
       "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=1463656527\u0026spec=640",
-      "content": "面对发展中的难题，老办法行不通，就必须大胆设想，打破常规框架，不走寻常路，以开拓性思维探寻解题密码。\u003cbr\u003e将大胆设想与小心求证相结合，既保证了改革创新的勇气，又不失稳健推进的智慧。\u003cbr\u003e----《人民日报》第28040期 第9版   孟祥夫《大胆设想与小心求证》[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"00451L5p43Jew4\" type=\"song\"/]\u003cbr\u003e[/hplayer]晚上好朋友们，又到月末了过了谷雨，天气渐暖，逐渐入夏，这周气温相对适宜，不像上个星期最高32℃这周没发生什么事，感觉很累，每天都是一点才睡的，感觉身体垮了现在期中考试结束了，可以期待五一了（听说是满放::aru:lurking::要是五一满放的话出趟远门放松一下 但是人一定很多哦，最终还得再考虑一下期中之后先来汇报一下期中的“好”成绩，这次考的不如人意，从去年期中"
+      "content": "面对发展中的难题，老办法行不通，就必须大胆设想，打破常规框架，不走寻常路，以开拓性思维探寻解题密码。\u003cbr\u003e将大胆设想与小心求证相结合，既保证了改革创新的勇气，又不失稳健推进的智慧。\u003cbr\u003e----《人民日报》第28040期 第9版   孟祥夫《大胆设想与小心求证》[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"00451L5p43Jew4\" type=\"song\"/]\u003cbr\u003e[/hplayer]晚上好朋友们，又到月末了过了谷雨，天气渐暖，逐渐入夏，这周气温相对",
+      "url": "https://www.iczrx.cn/"
     },
     {
       "title": "百元国产二手机推荐",
@@ -349,7 +418,8 @@
       "published": "2025-05-10 00:00:00",
       "author": "岚天小窝",
       "avatar": "https://cdn.aimiliy.top/pic/5af06b461740fb2bd7467b8561399703.png",
-      "content": "最低要求：屏幕成色好硬件全好无各种🔒 (如账户锁)能解 BootLoader根据以上要求，以下配置的估价来自小黄鱼。\u003ca href=\"#骁龙-660\"\u003e\u003c/a\u003e骁龙 660\u003ca href=\"#Mi-Note-3\"\u003e\u003c/a\u003eMi Note 36+64G, 3500mAh, 1080P@60Hz\u003cbr\u003e约 ¥150 左右\u003cbr\u003e\u003ca href=\"#Mi-6x\"\u003e\u003c/a\u003eMi 6x6+64G, 3010mAh, 1080P@60Hz\u003cbr\u003e约 ¥140 左右\u003cbr\u003e\u003ca href=\"#Meizu-15\"\u003e\u003c/a\u003eMeizu 15(9008 深刷解 BL 警告)\u003cbr\u003e只有 4G 内存？溢价比较严重，在 ¥300↑才能见到好成色\u003ca href=\"#骁龙-750G-支持-5G\"\u003e\u003c/a\u003e骁龙 750G (支持 5G)\u003ca href=\"#Redmi-Note-9-Pro\"\u003e\u003c/a\u003eRedmi Note"
+      "content": "最低要求：屏幕成色好硬件全好无各种🔒 (如账户锁)能解 BootLoader根据以上要求，以下配置的估价来自小黄鱼。\u003ca href=\"#骁龙-660\"\u003e\u003c/a\u003e骁龙 660\u003ca href=\"#Mi-Note-3\"\u003e\u003c/a\u003eMi Note 36+64G, 3500mAh, 1080P@60Hz\u003cbr\u003e约 ¥150 左右\u003cbr\u003e\u003ca href=\"#Mi-6x\"\u003e\u003c/a\u003eMi 6x6+64G, 3010mAh, 1080P@60Hz\u003cbr\u003e约 ¥140 左右\u003cbr\u003e",
+      "url": "https://blog.ltya.top"
     },
     {
       "title": "说说：#1746800295",
@@ -357,7 +427,8 @@
       "published": "2025-05-09 22:18:15",
       "author": "拂晓不辍",
       "avatar": "https://cdn.aimiliy.top/avatar/touxiang.webp",
-      "content": "今天喝酒我吐露了心声，真的如释负重，如果你要释怀过去，那我也就释怀过去"
+      "content": "今天喝酒我吐露了心声，真的如释负重，如果你要释怀过去，那我也就释怀过去",
+      "url": "https://o331.fun"
     },
     {
       "title": "说说：#1746640689",
@@ -365,7 +436,8 @@
       "published": "2025-05-08 01:58:09",
       "author": "拂晓不辍",
       "avatar": "https://cdn.aimiliy.top/avatar/touxiang.webp",
-      "content": "我到现在收藏的每一个表情包都还是在按照你的喜欢进行收藏，幻想有一天我还能给你发过去"
+      "content": "我到现在收藏的每一个表情包都还是在按照你的喜欢进行收藏，幻想有一天我还能给你发过去",
+      "url": "https://o331.fun"
     },
     {
       "title": "五一河南洛阳之行",
@@ -373,7 +445,8 @@
       "published": "2025-05-04 17:33:06",
       "author": "zuanshijia’s blog",
       "avatar": "https://zuanshijia.top/img/favicon.png",
-      "content": "站长五一去河南玩啦！！！"
+      "content": "站长五一去河南玩啦！！！",
+      "url": "https://zuanshijia.top"
     },
     {
       "title": "浅开了个MC服务器",
@@ -381,7 +454,8 @@
       "published": "2025-04-15 08:49:40",
       "author": "时隐重工",
       "avatar": "https://shiyina.com:233/favicon.ico",
-      "content": "MC版本：1.19.2 Mod数量：200+ 不是生电服！不是生电服！！不是生电服！！！ 得强调一下，不然总有人想搓科技 200+Mod真的搓不起科技 这是个休闲！养老！建筑服！ 没有离谱的数值！ 更没有离谱的装备！"
+      "content": "MC版本：1.19.2 Mod数量：200+ 不是生电服！不是生电服！！不是生电服！！！ 得强调一下，不然总有人想搓科技 200+Mod真的搓不起科技 这是个休闲！养老！建筑服！ 没有离谱的数值！ 更没有离谱的装备！",
+      "url": "https://shiyin.cafe/"
     },
     {
       "title": "UFI-TOOLS 食用指南",
@@ -389,7 +463,8 @@
       "published": "2025-04-14 12:48:27",
       "author": "kanokano",
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
-      "content": "项目目前主维护web版本，兼容性更好，跨平台体验好\u003cbr\u003e\n开源地址：\u003ca href=\"https://github.com/kanoqwq/F50-SMS\"\u003ehttps://github.com/kanoqwq/F50-SMS\u003c/a\u003e\n\n使用方法\n首先在网盘中下载最新版本软件：\u003ca href=\"https://www.123684.com/s/7oa5Vv-dQLD3?提取码:CkSj\"\u003ehttps://www.123684.com/s/7oa5Vv-dQLD3?提取码:CkSj\u003c/a\u003e\u003cbr\u003e\n截至最新版本是2.2.2，有新版就安装新版，本图仅是作为演示\n\n下载好之后分两种情况，仅安装到手机上使用 和 仅安装到随身WiFi机内通过手机浏览器使用，注意，本软件只需要在手机上或者在随身WIFI上安装就好了，不需要都安装(可以先安装到手机上来打开随身WiFi的ADB功能)\n下面将详细演示安装"
+      "content": "项目目前主维护web版本，兼容性更好，跨平台体验好\u003cbr\u003e\n开源地址：\u003ca href=\"https://github.com/kanoqwq/F50-SMS\"\u003ehttps://github.com/kanoqwq/F50-SMS\u003c/a\u003e\n\n使用方法\n首先在网盘中下载最新版本软件：\u003ca href=\"https://www.123684.com/s/7oa5Vv-dQLD3?提取码:CkSj\"\u003ehttps://www.123684.com/s/7oa5Vv-dQLD3?提取码:CkSj\u003c/a\u003e",
+      "url": "https://kanokano.cn"
     },
     {
       "title": "月夜杂记-清明及近日状况",
@@ -397,7 +472,8 @@
       "published": "2025-04-12 10:53:57",
       "author": "晚夜",
       "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=1463656527\u0026spec=640",
-      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"003Hlspg1faAGf\" type=\"song\"/]\u003cbr\u003e[/hplayer]\u003cbr\u003e下午好，朋友们已经有几个星期没更新文章了，借此利用清明假期来简要说说这个清明只放两天半，周日下午又要跑去学校咯，高三只放一天，高一放两天+第三天白天，明年的这个时候也开始有盼头了，终于能逃脱牢笼了！上个月基本上都是1点钟或以后睡的，每天睡4-5小时有时候碰上作业多，一写写到一点，有时候作业少自己刷题补课到一点四月初的时候身体状况愈下，还有点小感冒，舌头大了一圈伴有口腔溃疡，头伴有晕痛，所以有几天十一点半之前就睡了，然而第二天反而更困了，反而一点钟睡不困熬夜使免疫力低下我可是真有体会，高一喜欢玩，经常玩到一点钟以后，每天早上迷迷糊糊的就去上学了，到1月的时候赶上各种流感，纷纷中招，身体刚好就又感染，如此往复了十几次，那"
+      "content": "[hplayer]\u003cbr\u003e[Music server=\"tencent\" id=\"003Hlspg1faAGf\" type=\"song\"/]\u003cbr\u003e[/hplayer]\u003cbr\u003e下午好，朋友们已经有几个星期没更新文章了，借此利用清明假期来简要说说这个清明只放两天半，周日下午又要跑去学校咯，高三只放一天，高一放两天+第三天白天，明年的这个时候也开始有盼头了，终于能逃脱牢笼了！上个月基本上都是1点钟或以后睡的，每天睡4-5小时有时候碰上作业多，一写写到一点，有时候作业少自己刷题补课到一点四月初的时候身",
+      "url": "https://www.iczrx.cn/"
     },
     {
       "title": "湖北远安县FM收听报告-清明专题",
@@ -405,7 +481,8 @@
       "published": "2025-04-12 10:49:49",
       "author": "zuanshijia’s blog",
       "avatar": "https://zuanshijia.top/img/favicon.png",
-      "content": "远安县实地考察报告，站长实测"
+      "content": "远安县实地考察报告，站长实测",
+      "url": "https://zuanshijia.top"
     },
     {
       "title": "[开源小工具] 中兴F50辅助软件 ZTE-UFI-TOOLS",
@@ -413,7 +490,8 @@
       "published": "2025-04-11 16:03:59",
       "author": "kanokano",
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
-      "content": "有哪些功能？\n\n远程管理（需配合内网穿透）\n短信收发\n各种参数实时显示（cpu温度，内存负载 ，信号强度 , SNR、PCI、小区号、频段、v6地址等）\n锁频段，锁小区（免重启）\nUSB调试（自带网络ADB调试辅助，关闭开启一下ADB功能既可生效）\n双端可用（既可手机安装使用（无），也可为F50作为服务端安装使用）\n开机自启\n性能模式、指示灯、文件共享开关\n3G/4G/5G 网络切换\n其他未来会继续更新功能\n\n\u003cbr\u003e\n\n如何使用？\n安卓用户\n\n首先下载软件apk，安装至自己的手机内并打开\n和随身WiFi处于同一个网络下，打开控制网页，登录并启用adb功能\n使用电脑或手机的ADB功能 连接上随身WIFI 并将apk安装至随身WiFi机内\n使用scrcpy等远程控制软件启动zte-ufi-tools，设置网关，启动服务，并关掉电池优化，启用通知（确保能顺利开机自启）\n手机访问随身WiFi的i"
+      "content": "有哪些功能？\n\n远程管理（需配合内网穿透）\n短信收发\n各种参数实时显示（cpu温度，内存负载 ，信号强度 , SNR、PCI、小区号、频段、v6地址等）\n锁频段，锁小区（免重启）\nUSB调试（自带网络ADB调试辅助，关闭开启一下ADB功能既可生效）\n双端可用（既可手机安装使用（无），也可为F50作为服务端安装使用）\n开机自启\n性能模式、指示灯、文件共享开关\n3G/4G/5G 网络切换\n其他未来会继续更新功能\n\n\u003cbr\u003e\n\n如何使用？\n安卓用户\n\n首先下载软件apk，安装至自己的手机内并打开\n和随",
+      "url": "https://kanokano.cn"
     },
     {
       "title": "文章格式测试",
@@ -421,7 +499,8 @@
       "published": "2025-04-10 04:39:30",
       "author": "时隐重工",
       "avatar": "https://shiyina.com:233/favicon.ico",
-      "content": "H1标题 H2标题 H3标题 P正文 粗体粗体粗体粗体 斜体斜体斜体斜体 下划线下划线下划线 删除删除删除删除 高亮1 高亮2"
+      "content": "H1标题 H2标题 H3标题 P正文 粗体粗体粗体粗体 斜体斜体斜体斜体 下划线下划线下划线 删除删除删除删除 高亮1 高亮2",
+      "url": "https://shiyin.cafe/"
     },
     {
       "title": "JavaScript中如何为fetch方法添加请求超时功能",
@@ -429,7 +508,8 @@
       "published": "2025-04-09 09:44:15",
       "author": "kanokano",
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
-      "content": "fetch中option参数可以接受一个Abortsignal，只要传入的signal执行了abort()方法，fetch请求就会被立即终止，所以我们可以利用这个参数配合超时定时器实现请求超时功能\nMDN（Abortsignal）: \u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal\"\u003ehttps://developer.mozilla.org/en-US/docs/Web/API/AbortSignal\u003c/a\u003e\u003cbr\u003e\nMDN（fetch）: \u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/API/RequestInit#signal\"\u003ehttps://developer.mozilla.org/en-US/docs/Web/API/Requ\u003c/a\u003e"
+      "content": "fetch中option参数可以接受一个Abortsignal，只要传入的signal执行了abort()方法，fetch请求就会被立即终止，所以我们可以利用这个参数配合超时定时器实现请求超时功能\nMDN（Abortsignal）: \u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal\"\u003ehttps://developer.mozilla.org/en-US/docs/Web/API/AbortSignal\u003c/a\u003e",
+      "url": "https://kanokano.cn"
     },
     {
       "title": "关于建了个图床这件事",
@@ -437,7 +517,8 @@
       "published": "2025-04-07 08:25:12",
       "author": "时隐重工",
       "avatar": "https://shiyina.com:233/favicon.ico",
-      "content": "虽然说是基于群晖的 web station 应用和文件请求配合计划任务搭建出来的 但意外的还挺好用的，至少这条线路不限流量，就是可能带宽低了点速度稍微慢了点 如果你也想使用这个图床的话 首先去到 https://shiyina.com:233/ 这里 然后点击唯一的链"
+      "content": "虽然说是基于群晖的 web station 应用和文件请求配合计划任务搭建出来的 但意外的还挺好用的，至少这条线路不限流量，就是可能带宽低了点速度稍微慢了点 如果你也想使用这个图床的话 首先去到 https://shiyina.com:233/ 这里 然后点击唯一的链",
+      "url": "https://shiyin.cafe/"
     },
     {
       "title": "日后规划",
@@ -445,7 +526,17 @@
       "published": "2025-04-05 10:24:52",
       "author": "时隐重工",
       "avatar": "https://shiyina.com:233/favicon.ico",
-      "content": "这里应该会写一些关于VRC技术向的文章 可能会有做地图的技术相关 也有可能试试模型的魔改相关 总之日后再更新。"
+      "content": "这里应该会写一些关于VRC技术向的文章 可能会有做地图的技术相关 也有可能试试模型的魔改相关 总之日后再更新。",
+      "url": "https://shiyin.cafe/"
+    },
+    {
+      "title": "洛玖SDK说明",
+      "link": "https://www.drluo.top/posts/luo9_sdk",
+      "published": "2025-03-31 23:22:23",
+      "author": "洛屿的小站",
+      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
+      "content": "\u003ca href=\"https://github.com/luoy-oss/luo9_sdk\"\u003e洛玖SDK\u003c/a\u003e是一个用于开发洛玖机器人插件的综合性开发工具包。本文档将详细介绍SDK的核心功能、事件处理机制以及API接口的使用方法。",
+      "url": "https://www.drluo.top/"
     },
     {
       "title": "【记】成为一支火腿（Ham）的故事",
@@ -453,7 +544,8 @@
       "published": "2025-03-31 12:22:56",
       "author": "某科学的贝壳",
       "avatar": "https://img.misaka.pics/i/1/23/01/30/63d755db9649a.ico",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言我的呼号是 BA4SAK早在 2019 年，我就萌生了成为一名火腿（HAM）的想法。那时候在折腾树莓派 Zero W2，偶然刷到一个视频，讲的是怎么用这个\u003ca href=\"https://www.bilibili.com/video/av926697015/\"\u003e小板子做 SDR\u003c/a\u003e（软件定义无线电）。从那一刻起，我仿佛打开了无线电世界的大门。博主来自江苏，但感觉江苏本地的业余无线电相关信息并不容易搜到，似乎整个群体都比较小众。曾看过一支视频里面说\u003ca href=\"https://www.bilibili.com/video/av55534516/\"\u003e中国的业余无线电的人数只占总人口的1%。\u003c/a\u003e网上查到最多的信息主要集中在四川、河南、河北、辽宁、北京这些地方，其他省份的信息也有，但相对零散。以下是我从报名、考试、拿证到设备选购与执照申请的完整记"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言我的呼号是 BA4SAK早在 2019 年，我就萌生了成为一名火腿（HAM）的想法。那时候在折腾树莓派 Zero W2，偶然刷到一个视频，讲的是怎么用这个\u003ca href=\"https://www.bilibili.com/video/av926697015/\"\u003e小板子做 SDR\u003c/a\u003e（软件定义无线电）。从那一刻起，我仿佛打开了无线电世界的大门。博主来自江苏，但感觉江苏本地的业余无线电相关信息并不容易搜到，似乎整个群体都比较小众。曾看过一支视频里面说",
+      "url": "https://blog.ning.moe"
     },
     {
       "title": "白嫖平板",
@@ -461,7 +553,17 @@
       "published": "2025-03-30 13:46:40",
       "author": "kanokano",
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
-      "content": "白嫖平板，可惜这板子一眼库存货，今天就先遥遥领先一小时吧  \u003cbr\u003e\n\n\n\u003ca href=\"https://kanokano.cn/archives/1415.html\"\u003e来源\u003c/a\u003e"
+      "content": "白嫖平板，可惜这板子一眼库存货，今天就先遥遥领先一小时吧  \u003cbr\u003e\n\n\n\u003ca href=\"https://kanokano.cn/archives/1415.html\"\u003e来源\u003c/a\u003e",
+      "url": "https://kanokano.cn"
+    },
+    {
+      "title": "为网页文章开头添加原文连接",
+      "link": "https://www.drluo.top/posts/14996",
+      "published": "2025-03-28 23:28:23",
+      "author": "洛屿的小站",
+      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
+      "content": "本文介绍如何在博客文章页面添加原文链接，并进行动画效果美化，效果如下：\n\n\n向插件",
+      "url": "https://www.drluo.top/"
     },
     {
       "title": "typescript中配置axios",
@@ -469,7 +571,8 @@
       "published": "2025-03-26 18:00:14",
       "author": "kanokano",
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
-      "content": "import axios, { Method } from \"axios\";\n\n// 基础配置\nconst requestApi = axios.create({\n    baseURL: '',\n    timeout: 10000\n})\n\n// 拦截器配置\n\nrequestApi.interceptors.request.use((config) =\u003e {\n    return config\n})\n\n//响应拦截器\nrequestApi.interceptors.response.use((response) =\u003e {\n    return response.data\n}, err =\u003e {\n    return Promise.reject(err)\n})\n\ntype ReturnType\u003cT\u003e = {\n    code: number;\n    data: T;\n    msg: "
+      "content": "import axios, { Method } from \"axios\";\n\n// 基础配置\nconst requestApi = axios.create({\n    baseURL: '',\n    timeout: 10000\n})\n\n// 拦截器配置\n\nrequestApi.interceptors.request.use((config) =\u003e {\n    return config\n})\n\n//响应拦截器\nrequestApi.interceptors.response.use((",
+      "url": "https://kanokano.cn"
     },
     {
       "title": "在 macOS 上部署 DeepSeek R1",
@@ -477,7 +580,8 @@
       "published": "2025-03-24 20:56:00",
       "author": "Tony’s Blog",
       "avatar": "https://blog.iamsjy.com/assets/favicon.jpg",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言前一段时间，我所在省份国补和教育优惠也能叠加使用了，遂跟风买了一台丐版 2024 款 Mac mini。最近 DeepSeek 比较火，M4 高达 38TOPS 的 AI 算力跑点比较轻量的 AI 模型不成问题。博客鸽了这么久没更新，也该水一篇文章了。\u003ca href=\"#安装-Ollama-并运行\"\u003e\u003c/a\u003e安装 Ollama 并运行Ollama 是一款常用的大模型部署工具，很容易上手。首先打开 \u003ca href=\"https://ollama.com/download\"\u003eOllama 官网\u003c/a\u003e，选择 macOS 下载安装包，双击解压。然后把解压得到的 Ollama 应用拖到访达侧边栏的“应用程序”中即可。然后打开启动台就能看到 Ollama 的图标了，单击运行即可启动。在 \u003ca href=\"https://ollama.com/search\"\u003eO\u003c/a\u003e"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言前一段时间，我所在省份国补和教育优惠也能叠加使用了，遂跟风买了一台丐版 2024 款 Mac mini。最近 DeepSeek 比较火，M4 高达 38TOPS 的 AI 算力跑点比较轻量的 AI 模型不成问题。博客鸽了这么久没更新，也该水一篇文章了。\u003ca href=\"#安装-Ollama-并运行\"\u003e\u003c/a\u003e安装 Ollama 并运行Ollama 是一款常用的大模型部署工具，很容易上手。首先打开 ",
+      "url": "https://blog.iamsjy.com/"
     },
     {
       "title": "【记】第一次收发信",
@@ -485,7 +589,8 @@
       "published": "2025-02-28 18:08:52",
       "author": "某科学的贝壳",
       "avatar": "https://img.misaka.pics/i/1/23/01/30/63d755db9649a.ico",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言关于纸质信件，在本次亲历收发过程之前，我的记忆始终蒙着一层雾霭。作为Z世代的一员，即便频繁使用电子邮件，却总觉得这种数字信笺与传统书信都带着某种时代滤镜。朋友意外收到三封来自英国电信商giffgaff的平信，犹如推开了一扇通往古典通信艺术的暗门。我们相约以国内平信互寄，恰逢几位三月寿星好友生辰将近，索性决定批量寄送这份手写的温度。\u003ca href=\"#寄信\"\u003e\u003c/a\u003e寄信邮局之旅远比想象中简单，倒是寻找大学收发室成了隐藏关卡（这个伏笔将在收信时引发连锁反应）。即便存在收发室，在这个即时通讯时代，其功能大概也仅剩被动收件了。业余无线电 X 中国邮政 战略合作伙伴，可惜我尚未取得业余无线电操作证（火腿族入门考试究竟何时重启啊！）。现代邮政服务确实便捷许多，不再强求专用邮封，理论上任何容器都能承载心意——"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言关于纸质信件，在本次亲历收发过程之前，我的记忆始终蒙着一层雾霭。作为Z世代的一员，即便频繁使用电子邮件，却总觉得这种数字信笺与传统书信都带着某种时代滤镜。朋友意外收到三封来自英国电信商giffgaff的平信，犹如推开了一扇通往古典通信艺术的暗门。我们相约以国内平信互寄，恰逢几位三月寿星好友生辰将近，索性决定批量寄送这份手写的温度。\u003ca href=\"#寄信\"\u003e\u003c/a\u003e寄信邮局之旅远比想象中简单，倒是寻找大学收发室成了隐藏关卡（这个伏笔将在收信时引发连锁反应）",
+      "url": "https://blog.ning.moe"
     },
     {
       "title": "再见，从前的我",
@@ -493,7 +598,8 @@
       "published": "2025-02-24 23:42:00",
       "author": "白雾林",
       "avatar": "https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400",
-      "content": "上一次写博客，已是半年前。时间一晃而过，今天，已是我19岁生日后的好几天了。这段时间于我而言，是我内心蜕变最大的一段时间。有时不得不感叹一句，时间过得好快，许多事都好像发生在昨天。这一切，很难用有条有理的文字去表达，但我还是想将它们记录下来。每一首配乐都经过了我的精挑细选。如果条件允许，真心希望作为读者的你可以播放它，甚至是戴上耳机。音乐是另一种渲染氛围的途径，也许你可以通过它体会到我创作时的心境。[hplayer]\u003cbr\u003e[Music title=\"星桜 -はな-\" author=\"加賀谷玲\" url=\"https://www.baiwulin.com/usr/themes/handsome/assets/music/hxq.mp3\" pic=\"https://www.baiwulin.com/usr/themes/handsome/assets/music/hxq.jpg\" type="
+      "content": "上一次写博客，已是半年前。时间一晃而过，今天，已是我19岁生日后的好几天了。这段时间于我而言，是我内心蜕变最大的一段时间。有时不得不感叹一句，时间过得好快，许多事都好像发生在昨天。这一切，很难用有条有理的文字去表达，但我还是想将它们记录下来。每一首配乐都经过了我的精挑细选。如果条件允许，真心希望作为读者的你可以播放它，甚至是戴上耳机。音乐是另一种渲染氛围的途径，也许你可以通过它体会到我创作时的心境。[hplayer]\u003cbr\u003e[Music title=\"星桜 -はな-\" author=\"加賀谷玲\"",
+      "url": "https://www.baiwulin.com"
     },
     {
       "title": "WearOS 手表上的实用软件",
@@ -501,7 +607,8 @@
       "published": "2025-02-24 00:00:00",
       "author": "岚天小窝",
       "avatar": "https://cdn.aimiliy.top/pic/5af06b461740fb2bd7467b8561399703.png",
-      "content": "最近，我入手了一块 Galaxy Watch6\u003cbr\u003e简单了解了一下 WearOS 后相对于 Android, 这系统砍掉了很多东西，比如：文件框架、所有文件访问权限入口。\u003cbr\u003e所以分享一下我在使用这块表安装的软件，以及让它们正常运行的教程。\u003ca href=\"#哔哩终端\"\u003e\u003c/a\u003e哔哩终端一个极其轻量的第三方B站客户端\u003cbr\u003e支持 Android 4.0+ 版本且免费开源，可以兼容圆屏（方形缩放）\u003cbr\u003e如果你之前被腕上**圈过的话，那恭喜你少顿饭（\u003cbr\u003e反正我不知道这种东西为啥能收费，果然还是学生的好赚？\u003ca href=\"https://biliterminal.cn/\"\u003e官网\u003c/a\u003e\u003cbr\u003e下载: \u003ca href=\"https://d.biliterminal.cn/\"\u003e官网服务器\u003c/a\u003e | "
+      "content": "最近，我入手了一块 Galaxy Watch6\u003cbr\u003e简单了解了一下 WearOS 后相对于 Android, 这系统砍掉了很多东西，比如：文件框架、所有文件访问权限入口。\u003cbr\u003e所以分享一下我在使用这块表安装的软件，以及让它们正常运行的教程。\u003ca href=\"#哔哩终端\"\u003e\u003c/a\u003e哔哩终端一个极其轻量的第三方B站客户端\u003cbr\u003e支持 Android 4.0+ 版本且免费开源，可以兼容圆屏（方形缩放）\u003cbr\u003e如果你之前被腕上**圈过的话，那恭喜你少顿饭（\u003cbr\u003e反正我不知道这种东西为啥能收费，果然",
+      "url": "https://blog.ltya.top"
     },
     {
       "title": "【记】中国移动携号转网至中国电信",
@@ -509,7 +616,8 @@
       "published": "2025-02-06 17:57:01",
       "author": "某科学的贝壳",
       "avatar": "https://img.misaka.pics/i/1/23/01/30/63d755db9649a.ico",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言博主家曾全是中国移动，最长的一个号码已使用超过6000天。虽然一开始对于携号转网心存疑虑，但随着时间推移，尤其是19年将宽带迁移至电信后，我逐渐决定放弃中国移动。经过多次骚扰电话和长辈账户的额外费用，携号转网的想法再度提上日程。随着2025年携号转网政策实施五周年，流程已理论成熟，但实际操作过程中仍存在许多繁琐和问题。以下是我的转网经历与总结。\u003ca href=\"#携号准备\"\u003e\u003c/a\u003e携号准备在携号转网之前，首先需要确认自己的号码是否符合转网条件。你可以通过发送个人信息查询是否有资格办理。短信内容格式为：CXXZ#用户名#证件号码把上面的按照你的个人信息填好，发送至你现在的运营商(移动:10086、电信:10001、联通:10010)，基本上会有以下情况，如果同意那么准备阶段就已经结束了，如果没有就先打对应的运营商电话(移动:10086、电信:1000"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言博主家曾全是中国移动，最长的一个号码已使用超过6000天。虽然一开始对于携号转网心存疑虑，但随着时间推移，尤其是19年将宽带迁移至电信后，我逐渐决定放弃中国移动。经过多次骚扰电话和长辈账户的额外费用，携号转网的想法再度提上日程。随着2025年携号转网政策实施五周年，流程已理论成熟，但实际操作过程中仍存在许多繁琐和问题。以下是我的转网经历与总结。\u003ca href=\"#携号准备\"\u003e\u003c/a\u003e携号准备在携号转网之前，首先需要确认自己的号码是否符合转网条件。你可以通过",
+      "url": "https://blog.ning.moe"
     },
     {
       "title": "2024总结",
@@ -517,7 +625,8 @@
       "published": "2024-12-31 12:00:00",
       "author": "某科学的贝壳",
       "avatar": "https://img.misaka.pics/i/1/23/01/30/63d755db9649a.ico",
-      "content": "转眼间 2024 年就这样结束了，回顾过去这一年，似乎比往年多了一些亮点，也多了一些挑战。\u003ca href=\"#博客\"\u003e\u003c/a\u003e博客经历了一年的耕耘，博客在 2024 年迎来了飞跃式的增长。2024 年共计写了 12 篇文章其中阅读量最高的是 IkuaI 防火墙配置 IPv6 ，总阅读量达到了 1.5k，其中 Google 是最大的流量来源。其次是 创建递归 DNS 服务，总阅读量为 1.32k。全年本站从 2024 年的完整数据统计来看，共计收获了 PV 26.5k，UV 11k。相比往年，流量实现了惊人的增长，访客数量增长了  405 %，PV 增长了  307%，这离不开每位读者的支持和热爱。以下是全年 PV 和 UV 数据的柱状图：  为什么数据增长幅度如此之大？\u003cbr\u003e因为今年认真写了好多技术文章在内容优化和搜索引擎的加持下，流量主要来源于 Google（占比 32%）和 Bing"
+      "content": "转眼间 2024 年就这样结束了，回顾过去这一年，似乎比往年多了一些亮点，也多了一些挑战。\u003ca href=\"#博客\"\u003e\u003c/a\u003e博客经历了一年的耕耘，博客在 2024 年迎来了飞跃式的增长。2024 年共计写了 12 篇文章其中阅读量最高的是 IkuaI 防火墙配置 IPv6 ，总阅读量达到了 1.5k，其中 Google 是最大的流量来源。其次是 创建递归 DNS 服务，总阅读量为 1.32k。全年本站从 2024 年的完整数据统计来看，共计收获了 PV 26.5k，UV 11k。相比往年，流量",
+      "url": "https://blog.ning.moe"
     },
     {
       "title": "给龙芯久久派交叉编译 Cloudreve",
@@ -525,7 +634,8 @@
       "published": "2024-11-09 22:56:30",
       "author": "Tony’s Blog",
       "avatar": "https://blog.iamsjy.com/assets/favicon.jpg",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言龙芯有新世界和旧世界之分，两个世界的软件不通用，更多细节请参考\u003ca href=\"https://areweloongyet.com/docs/old-and-new-worlds/\"\u003e这篇文章\u003c/a\u003e。本文编译的 Cloudreve 仅适用于龙芯新世界。截至本文撰写时，适配久久派的新世界系统仅有 Buildroot。提示如果你只是想要一个编译好的可执行文件，可直接前往\u003ca href=\"https://lanzoui.com/isToC2eo3zpe\"\u003e此处\u003c/a\u003e下载。本文编译所用系统为 Ubuntu 22.04 LTS amd64，其他系统大同小异。以下为详细步骤。\u003ca href=\"#安装-Golang-环境\"\u003e\u003c/a\u003e安装 Golang 环境下载 Golang 压缩包wget https://golang.google.cn/dl/go1.23."
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言龙芯有新世界和旧世界之分，两个世界的软件不通用，更多细节请参考\u003ca href=\"https://areweloongyet.com/docs/old-and-new-worlds/\"\u003e这篇文章\u003c/a\u003e。本文编译的 Cloudreve 仅适用于龙芯新世界。截至本文撰写时，适配久久派的新世界系统仅有 Buildroot。提示如果你只是想要一个编译好的可执行文件，可直接前往\u003ca href=\"https://lanzoui.com/isToC2eo3zpe\"\u003e此处\u003c/a\u003e",
+      "url": "https://blog.iamsjy.com/"
     },
     {
       "title": "使用 Docker Compose 部署 OneManager",
@@ -533,7 +643,8 @@
       "published": "2024-11-06 23:05:56",
       "author": "Tony’s Blog",
       "avatar": "https://blog.iamsjy.com/assets/favicon.jpg",
-      "content": "一直以来，我都倾向于通过 Docker Compose 部署程序。相比手动安装，这种方法更为方便快捷。相比直接通过 Docker 部署，这种方法更易于管理与维护。本文简述使用 Docker Compose 部署 OneManager 的具体步骤。阅读本文前，请自行安装好 Caddy，后文中会使用到。\u003ca href=\"#部署程序\"\u003e\u003c/a\u003e部署程序首先创建程序目录sudo mkdir /opt/onemanager \u0026\u0026 cd /opt/onemanager\u003cbr\u003esudo mkdir data \u0026\u0026 cd data\u003cbr\u003e然后创建 OneManager 配置文件sudo cat \u003e config.php \u003c\u003c EOF\u003cbr\u003e\u003c?php $configs = '\u003cbr\u003e{\u003cbr\u003e}\u003cbr\u003e';\u003cbr\u003eEOF\u003cbr\u003e修改文件所有者为 www-datasudo chown www-data:ww"
+      "content": "一直以来，我都倾向于通过 Docker Compose 部署程序。相比手动安装，这种方法更为方便快捷。相比直接通过 Docker 部署，这种方法更易于管理与维护。本文简述使用 Docker Compose 部署 OneManager 的具体步骤。阅读本文前，请自行安装好 Caddy，后文中会使用到。\u003ca href=\"#部署程序\"\u003e\u003c/a\u003e部署程序首先创建程序目录sudo mkdir /opt/onemanager \u0026\u0026 cd /opt/onemanager\u003cbr\u003esudo mkdir data ",
+      "url": "https://blog.iamsjy.com/"
     },
     {
       "title": "Debian 通过蓝牙命令行和手机互传文件",
@@ -541,7 +652,8 @@
       "published": "2024-10-28 23:47:00",
       "author": "Tony’s Blog",
       "avatar": "https://blog.iamsjy.com/assets/favicon.jpg",
-      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言这篇文章其实是为了测试 RK3399 主板的蓝牙功能而写的。理论上对其他 Linux 发行版同样适用，具体做法大同小异。本文记录一下相关步骤。\u003ca href=\"#安装依赖\"\u003e\u003c/a\u003e安装依赖更新软件包索引：sudo apt update\u003cbr\u003e安装依赖：sudo apt install -y bluetooth bluez-tools bluez-obexd\u003cbr\u003e\u003ca href=\"#连接设备\"\u003e\u003c/a\u003e连接设备注意以 [bluetooth]# 开头的命令均要在蓝牙终端下执行，且仅执行 # 之后的内容。本文中所有的 [目标设备的蓝牙地址] 都要替换为目标设备实际的蓝牙地址。\u003ca href=\"#进入蓝牙命令行\"\u003e\u003c/a\u003e进入蓝牙命令行执行以下命令：$ bluetoothctl\u003cbr\u003e输出：Agent registered\u003cbr\u003e[CHG] Contro"
+      "content": "\u003ca href=\"#前言\"\u003e\u003c/a\u003e前言这篇文章其实是为了测试 RK3399 主板的蓝牙功能而写的。理论上对其他 Linux 发行版同样适用，具体做法大同小异。本文记录一下相关步骤。\u003ca href=\"#安装依赖\"\u003e\u003c/a\u003e安装依赖更新软件包索引：sudo apt update\u003cbr\u003e安装依赖：sudo apt install -y bluetooth bluez-tools bluez-obexd\u003cbr\u003e\u003ca href=\"#连接设备\"\u003e\u003c/a\u003e连接设备注意以 [bluetooth]# 开头的命令",
+      "url": "https://blog.iamsjy.com/"
     },
     {
       "title": "《解忧杂货店》分享",
@@ -549,7 +661,8 @@
       "published": "2024-10-22 11:42:00",
       "author": "白雾林",
       "avatar": "https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400",
-      "content": "本文为线下书籍分享演讲稿，非日常更新博客文章，文字风格会有所不同。何为好书？在开始分享“好书”前，我想先聊一聊“何为好书”——哪些特征会使我认为一本书值得被分享、被推荐。首先，不可否认的是，作为生活在现实世界中的读者，我们的生活远不如大多数作品中所描绘的那样完美。因此我对“好书”的定义之一便是是否切合实际。这种“切合实际”，并非完全不能添加任何不符合现实社会的成分，只是应把握好一个度。与实际生活一模一样的作品会很快使人觉得索然无味；而太过脱离实际的作品虽能在阅读时给人一种精神上的新鲜感与振奋感，但随之而来的便是在阅读完作品后的空虚感——作品中所描绘的虽然是我们所向往的生活，但谁都知道这不可能，它没有思考与回味的价值。我对“好书”的定义之二是它是否能引起读者的共鸣。复杂的情绪是我们人类与动物的最大区别之一，也是构成我们日常生活最基础的事物。我曾因为某些原因体验过一段“没有感情”的生活——我对"
+      "content": "本文为线下书籍分享演讲稿，非日常更新博客文章，文字风格会有所不同。何为好书？在开始分享“好书”前，我想先聊一聊“何为好书”——哪些特征会使我认为一本书值得被分享、被推荐。首先，不可否认的是，作为生活在现实世界中的读者，我们的生活远不如大多数作品中所描绘的那样完美。因此我对“好书”的定义之一便是是否切合实际。这种“切合实际”，并非完全不能添加任何不符合现实社会的成分，只是应把握好一个度。与实际生活一模一样的作品会很快使人觉得索然无味；而太过脱离实际的作品虽能在阅读时给人一种精神上的新鲜感与振奋感，",
+      "url": "https://www.baiwulin.com"
     },
     {
       "title": "Windows 聚焦隐藏“了解此图片”图标",
@@ -557,7 +670,8 @@
       "published": "2024-08-23 00:00:00",
       "author": "岚天小窝",
       "avatar": "https://cdn.aimiliy.top/pic/5af06b461740fb2bd7467b8561399703.png",
-      "content": "\u003ca href=\"#背景\"\u003e\u003c/a\u003e背景各位都知道 Windows 聚焦上有许多美图，时不时会换一张美丽的风景、眼前一亮的动物等，还可以帮助我们学习一些拍摄技巧。\u003cbr\u003e但是我们可能用不到“了解此图片”，所以我写了个批处理文件，一键隐藏或显示。\u003cbr\u003e为了写这玩意，我还特意去了解了一下批处理文件格式和注册表文件 qwq\u003ca href=\"#获取\"\u003e\u003c/a\u003e获取\u003ca href=\"https://files.ltya.top/123/%E8%84%9A%E6%9C%AC/spotlightMgr.bat\"\u003e下载一键脚本\u003c/a\u003e\u003cbr\u003e点击 Markdown 切换为 Download 即可下载如果网盘炸了那就手动复制下面的吧\u003cbr\u003e新建一个 disabled.reg 文件Windows Registry Editor Version 5.00\u003cbr\u003e\u003cbr\u003e[HKEY_CURRENT_USER\\S"
+      "content": "\u003ca href=\"#背景\"\u003e\u003c/a\u003e背景各位都知道 Windows 聚焦上有许多美图，时不时会换一张美丽的风景、眼前一亮的动物等，还可以帮助我们学习一些拍摄技巧。\u003cbr\u003e但是我们可能用不到“了解此图片”，所以我写了个批处理文件，一键隐藏或显示。\u003cbr\u003e为了写这玩意，我还特意去了解了一下批处理文件格式和注册表文件 qwq\u003ca href=\"#获取\"\u003e\u003c/a\u003e获取",
+      "url": "https://blog.ltya.top"
     },
     {
       "title": "迁站小记",
@@ -565,7 +679,8 @@
       "published": "2024-08-13 03:18:00",
       "author": "白雾林",
       "avatar": "https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400",
-      "content": "博客的迁移，既是对从前的告别，也是对未来的迎接。虽然不知道未来是否美好，但依然保有一丝丝的期待。我不爱做一些在我看来没有意义且不必要的事情，但是迁站这件事，已经想了很久了，也终于在最近几天彻底完成。起因首先，国内的互联网管控有些过于严格，至少对于我而言，不是那么令人舒服。各种备案、审查制度不仅繁琐，而且效率低下。也有时，博客可能会因为一些言论而被采取各种限制措施。虽然目前我还没有遇到，以后也不会发表这些内容，但难免有被误判的风险。也许各种错误的限制都可以通过后期的申诉来解决，但这些流程都繁琐又耗时。还是那句话，我不爱做一些在我看来没有意义且不必要的事情，我只想把本就不多的精力花在有用的地方。其次，最近PCDN刷流量的情况依旧没有停息的迹象。之前我为了把访问体验尽可能地提升，给全站分别做了动态、静态CDN，虽然截止到目前都没被刷过，但风险依然存在。老实说，我并不怕被刷流量。CDN的技术支持那"
+      "content": "博客的迁移，既是对从前的告别，也是对未来的迎接。虽然不知道未来是否美好，但依然保有一丝丝的期待。我不爱做一些在我看来没有意义且不必要的事情，但是迁站这件事，已经想了很久了，也终于在最近几天彻底完成。起因首先，国内的互联网管控有些过于严格，至少对于我而言，不是那么令人舒服。各种备案、审查制度不仅繁琐，而且效率低下。也有时，博客可能会因为一些言论而被采取各种限制措施。虽然目前我还没有遇到，以后也不会发表这些内容，但难免有被误判的风险。也许各种错误的限制都可以通过后期的申诉来解决，但这些流程都繁琐又耗",
+      "url": "https://www.baiwulin.com"
     },
     {
       "title": "如何在 Docker 安装 Meting-API",
@@ -573,7 +688,8 @@
       "published": "2024-07-29 14:29:27",
       "author": "ElectricityDream",
       "avatar": "https://blog.edmc.cn/upload/fillet-ElectricityDream.png",
-      "content": "Meting-API 是一个轻量级的音乐接口，可以轻松地获取来自各大音乐平台的音乐数据。本文将介绍如何在 Debian 系统上使用 Docker 安装和运行 Meting-API。 前提条件 在开始之前，请确保您的系统满足以下条件： 具备 sudo 或 root 权限。 已安装 Docker（如已安"
+      "content": "Meting-API 是一个轻量级的音乐接口，可以轻松地获取来自各大音乐平台的音乐数据。本文将介绍如何在 Debian 系统上使用 Docker 安装和运行 Meting-API。 前提条件 在开始之前，请确保您的系统满足以下条件： 具备 sudo 或 root 权限。 已安装 Docker（如已安",
+      "url": "https://blog.edmc.cn/"
     },
     {
       "title": "如何在 Debian 上安装 Meting",
@@ -581,7 +697,8 @@
       "published": "2024-07-29 12:18:15",
       "author": "ElectricityDream",
       "avatar": "https://blog.edmc.cn/upload/fillet-ElectricityDream.png",
-      "content": "Meting 是一个开源的音乐 API 封装工具，它提供了便捷的接口，用于从多个音乐平台获取音乐信息。本文将介绍如何在 Debian 系统上安装和配置 Meting。 前提条件 在开始之前，请确保您的系统满足以下条件： 已安装 Debian 操作系统。 具备 sudo 或 root 权限。 已安装"
+      "content": "Meting 是一个开源的音乐 API 封装工具，它提供了便捷的接口，用于从多个音乐平台获取音乐信息。本文将介绍如何在 Debian 系统上安装和配置 Meting。 前提条件 在开始之前，请确保您的系统满足以下条件： 已安装 Debian 操作系统。 具备 sudo 或 root 权限。 已安装",
+      "url": "https://blog.edmc.cn/"
     },
     {
       "title": "如何在 Debian 11 上安装 PHP Composer",
@@ -589,7 +706,8 @@
       "published": "2024-07-29 10:54:02",
       "author": "ElectricityDream",
       "avatar": "https://blog.edmc.cn/upload/fillet-ElectricityDream.png",
-      "content": "Composer 是 PHP 的一个依赖管理工具，它使得开发者可以轻松地管理和安装项目中的依赖包。在 Debian 11 上安装 Composer 的过程相对简单。本文将逐步介绍如何在 Debian 11 上安装 PHP Composer。 前提条件 在开始之前，确保您的系统满足以下条件： 已安装"
+      "content": "Composer 是 PHP 的一个依赖管理工具，它使得开发者可以轻松地管理和安装项目中的依赖包。在 Debian 11 上安装 Composer 的过程相对简单。本文将逐步介绍如何在 Debian 11 上安装 PHP Composer。 前提条件 在开始之前，确保您的系统满足以下条件： 已安装",
+      "url": "https://blog.edmc.cn/"
     },
     {
       "title": "微信小程序构建npm详解",
@@ -597,7 +715,8 @@
       "published": "2024-07-25 16:39:00",
       "author": "猫不吃鱼",
       "avatar": "https://starsei.com/favicon.ico",
-      "content": "[scode type=\"green\"]更新时间2024年06月27日[/scode]环境准备确保当前环境已经安装了Node.js和npm。可以通过查看版本号的方式检测是否安装，可执行以下命令查看# Node.js查看\nnode --version\nnode -v\n\n# npm查看\nnpm --version\nnpm -v如果未安装可通过Node.js官网\u003ca href=\"https://nodejs.org/zh-cn\"\u003e点此进入\u003c/a\u003e下载安装安装依赖[scode type=\"yellow\"]请在小程序项目根目录下或者在微信开发者工具—调试器—终端执行[/scode]初始化package.jsonnpm init -y [scode type=\"blue\"]这里使用腾讯开源企业设计体系UI组件库TDesign\u003ca href=\"https://tdesign.tencent.com/\"\u003e\u003c/a\u003e"
+      "content": "[scode type=\"green\"]更新时间2024年06月27日[/scode]环境准备确保当前环境已经安装了Node.js和npm。可以通过查看版本号的方式检测是否安装，可执行以下命令查看# Node.js查看\nnode --version\nnode -v\n\n# npm查看\nnpm --version\nnpm -v如果未安装可通过Node.js官网\u003ca href=\"https://nodejs.org/zh-cn\"\u003e点此进入\u003c/a\u003e下载安装安装依赖[scode type=\"yellow\"",
+      "url": "https://starsei.com/"
     },
     {
       "title": "巧用 Vercel 重定向",
@@ -605,7 +724,8 @@
       "published": "2024-07-14 00:00:00",
       "author": "岚天小窝",
       "avatar": "https://cdn.aimiliy.top/pic/5af06b461740fb2bd7467b8561399703.png",
-      "content": "今天翻了翻 \u003ca href=\"https://vercel.com/docs\"\u003eVercel Docs\u003c/a\u003e, 发现 vercel.json 有个 redirects 参数\u003cbr\u003e这就让我想起 \u003ca href=\"https://ivampiresp.com/\"\u003eiVampireSP\u003c/a\u003e 的头像了awa\u003cbr\u003e所以整了个 Gravatar 头像重定向\u003ca href=\"#正片\"\u003e\u003c/a\u003e正片{\u003cbr\u003e  \"redirects\": [\u003cbr\u003e    { \"source\": \"/\", \"destination\": \"https://ltya.top\", \"permanent\": false },\u003cbr\u003e    { \"source\": \"/avatar/:match*\", \"destination\": \"https://gravatar.ltya.top/avatar/5af06b461740"
+      "content": "今天翻了翻 \u003ca href=\"https://vercel.com/docs\"\u003eVercel Docs\u003c/a\u003e, 发现 vercel.json 有个 redirects 参数\u003cbr\u003e这就让我想起 \u003ca href=\"https://ivampiresp.com/\"\u003eiVampireSP\u003c/a\u003e 的头像了awa\u003cbr\u003e所以整了个 Gravatar 头像重定向\u003ca href=\"#正片\"\u003e\u003c/a\u003e正片{\u003cbr\u003e  \"redirects\": [\u003cbr\u003e    { \"source\": \"/\", \"desti",
+      "url": "https://blog.ltya.top"
     },
     {
       "title": "Handsome主题美化记录",
@@ -613,7 +733,8 @@
       "published": "2024-07-11 18:37:00",
       "author": "猫不吃鱼",
       "avatar": "https://starsei.com/favicon.ico",
-      "content": "[scode type=\"blue\"]这篇文章作为对 Handsome 9.2.1 Pro美化记录，有新增时会实时更新。[/scode]\u003cbr\u003e[scode type=\"red\"]本文内容部分来源于网络，如有侵权请留言删除！[/scode]\u003cbr\u003e[scode type=\"green\"]更新时间 2024年 08月 18日[/scode]说明[scode type=\"blue\"]文件源码下载 CSS文件 custom.css和JS文件 custom.js[/scode]\u003cbr\u003e[scode type=\"yellow\"]本站所有美化样式均放在以下文件中[/scode]\u003cbr\u003e[scode type=\"red\"]以下CSS文件以及JS文件失效，请下载Comic插件使用或者单独添加CSS以及JS。[/scode]\u003cbr\u003e[tabs]\u003cbr\u003e[tab name=\"提示\" active=\"true\""
+      "content": "[scode type=\"blue\"]这篇文章作为对 Handsome 9.2.1 Pro美化记录，有新增时会实时更新。[/scode]\u003cbr\u003e[scode type=\"red\"]本文内容部分来源于网络，如有侵权请留言删除！[/scode]\u003cbr\u003e[scode type=\"green\"]更新时间 2024年 08月 18日[/scode]说明[scode type=\"blue\"]文件源码下载 CSS文件 custom.css和JS文件 custom.js[/scode]\u003cbr\u003e[scode ty",
+      "url": "https://starsei.com/"
     },
     {
       "title": "在Docker上安装FireFox",
@@ -621,7 +742,8 @@
       "published": "2024-04-26 03:49:03",
       "author": "薄荷の小屋",
       "avatar": "https://api.hoshiroko.com/img/avatar.jpg",
-      "content": "有些时候，我们需要在Linux服务器环境里对项目进行测试，比如网站 容器之类的\n这时我们就需要一个浏览器，但是Linux服务器没有桌面环境，如果直接安装Windows之类的桌面级系统，有些服务商不支持先不说，像是低配机比如1核1G的服务器也难运行\n现在我们可以在Docker里安装个浏览器环境然后VNC链接，也可以直接Docker安装Windows系统，但是对机器配置要求高，安装浏览器是更亲民的方案"
+      "content": "有些时候，我们需要在Linux服务器环境里对项目进行测试，比如网站 容器之类的\n这时我们就需要一个浏览器，但是Linux服务器没有桌面环境，如果直接安装Windows之类的桌面级系统，有些服务商不支持先不说，像是低配机比如1核1G的服务器也难运行\n现在我们可以在Docker里安装个浏览器环境然后VNC链接，也可以直接Docker安装Windows系统，但是对机器配置要求高，安装浏览器是更亲民的方案",
+      "url": "https://blog.hoshiroko.com/"
     },
     {
       "title": "个人笔记-1",
@@ -629,7 +751,8 @@
       "published": "2024-02-09 16:00:00",
       "author": "薄荷の小屋",
       "avatar": "https://api.hoshiroko.com/img/avatar.jpg",
-      "content": "这是我的第一篇个人笔记，就如标题所示，这是我自己的个人笔记(个人向的)用来记录我平常遇到的一些需要记录的知识点\u003cbr\u003e我绝对写哪都不如写blog里(其实就是没有别的地方可以写)，有需要自行阅读\u003cbr\u003e在个人笔记的内容一般毕竟零碎且杂乱，各位见谅"
+      "content": "这是我的第一篇个人笔记，就如标题所示，这是我自己的个人笔记(个人向的)用来记录我平常遇到的一些需要记录的知识点\u003cbr\u003e我绝对写哪都不如写blog里(其实就是没有别的地方可以写)，有需要自行阅读\u003cbr\u003e在个人笔记的内容一般毕竟零碎且杂乱，各位见谅",
+      "url": "https://blog.hoshiroko.com/"
     },
     {
       "title": "Comic—二次元风格美化插件",
@@ -637,7 +760,8 @@
       "published": "2024-02-02 17:37:00",
       "author": "猫不吃鱼",
       "avatar": "https://starsei.com/favicon.ico",
-      "content": "[scode type=\"blue\"]本篇文章记录对Comic插件更新以及维护，有版本更新会及时上传.[/scode]\u003cbr\u003e[scode type=\"green\"]更新时间：2025年03月17日[/scode]\u003cbr\u003e[scode type=\"red\"]新的插件已上线~ 可以替代原先的插件咯~[/scode]前言博主自用的一款页面美化插件，页面整体简约白。\u003cbr\u003e[scode type=\"yellow\"]插件支持版本：HandsomePro v9.2.1[/scode]功能介绍效果展示[scode type=\"blue\"]参考博主站点：\u003ca href=\"https://starsei.com/\"\u003ehttps://starsei.com/\u003c/a\u003e[/scode]\u003cbr\u003e[scode type=\"red\"]说明：目前插件版本还在v2.0.1，以下插件设置图为下个插件版本，暂未上线。\u003cbr\u003e"
+      "content": "[scode type=\"blue\"]本篇文章记录对Comic插件更新以及维护，有版本更新会及时上传.[/scode]\u003cbr\u003e[scode type=\"green\"]更新时间：2025年03月17日[/scode]\u003cbr\u003e[scode type=\"red\"]新的插件已上线~ 可以替代原先的插件咯~[/scode]前言博主自用的一款页面美化插件，页面整体简约白。\u003cbr\u003e[scode type=\"yellow\"]插件支持版本：HandsomePro v9.2.1[/scode]功能介绍效果展示[sc",
+      "url": "https://starsei.com/"
     },
     {
       "title": "Minecraft联机与开服基础教程",
@@ -645,7 +769,8 @@
       "published": "2024-01-05 02:00:00",
       "author": "薄荷の小屋",
       "avatar": "https://api.hoshiroko.com/img/avatar.jpg",
-      "content": "\u003ca href=\"https://www.minecraft.net/zh-hans\"\u003eMinecraft(我的世界)\u003c/a\u003e 想必各位都很熟悉了，但是这款游戏官方不自带联机功能，我们需要自己部署服务器或者联机隧道才能联机游玩。这篇教程就来教教各位Minecraft的基础联机教程，保证能连上游玩！\n本篇教程为基础教程，浅入了解正版与离线版(盗版)的区别，端到端的联机和部署简单服务器\u003cbr\u003e本篇教程不涉及 基岩版 和 \u003ca href=\"https://mc.163.com/\"\u003e我的世界中国版\u003c/a\u003e"
+      "content": "\u003ca href=\"https://www.minecraft.net/zh-hans\"\u003eMinecraft(我的世界)\u003c/a\u003e 想必各位都很熟悉了，但是这款游戏官方不自带联机功能，我们需要自己部署服务器或者联机隧道才能联机游玩。这篇教程就来教教各位Minecraft的基础联机教程，保证能连上游玩！\n本篇教程为基础教程，浅入了解正版与离线版(盗版)的区别，端到端的联机和部署简单服务器\u003cbr\u003e本篇教程不涉及 基岩版 和 \u003ca href=\"https://mc.163.com/\"\u003e我的世界中国版\u003c/a\u003e",
+      "url": "https://blog.hoshiroko.com/"
     },
     {
       "title": "2024新年快乐！",
@@ -653,7 +778,8 @@
       "published": "2024-01-01 00:00:01",
       "author": "薄荷の小屋",
       "avatar": "https://api.hoshiroko.com/img/avatar.jpg",
-      "content": ""
+      "content": "",
+      "url": "https://blog.hoshiroko.com/"
     },
     {
       "title": "Windows下使用虚拟机安装MacOS",
@@ -661,7 +787,8 @@
       "published": "2023-11-05 09:01:00",
       "author": "猫不吃鱼",
       "avatar": "https://starsei.com/favicon.ico",
-      "content": "[scode type=\"blue\"]这篇文章只针对于想要使用Mac的小伙伴~ ::douyin:48:: [/scode]\u003cbr\u003e如果预算不够但又想体验一下电脑，该怎么办？\u003cbr\u003e答案很简单，直线去线下苹果体验店啊！\u003cbr\u003e哈哈，我是开玩笑的，接下来咱们言归正传~\u003cbr\u003e[scode type=\"yellow\"]毕竟站长是买不起Mac的，所以只能基于Windows安装使用，当然肯定是比不上Mac。[/scode]系统准备所需容量：至少40GB的硬盘空间，推荐80GB。需要资源VMware虚拟机（如果没有激活密钥，可以选择下载站长资源,当然其他虚拟机也可以）macOS系统镜像（一般使用iso镜像文件挂载，如果是dwg、cdr等其他格式请转换成iso镜像文件）Unlock解锁工具(让虚拟机兼容mac)安装[scode type=\"blue\"]安装VMware虚拟机请提前自备镜像（不包括当前m"
+      "content": "[scode type=\"blue\"]这篇文章只针对于想要使用Mac的小伙伴~ ::douyin:48:: [/scode]\u003cbr\u003e如果预算不够但又想体验一下电脑，该怎么办？\u003cbr\u003e答案很简单，直线去线下苹果体验店啊！\u003cbr\u003e哈哈，我是开玩笑的，接下来咱们言归正传~\u003cbr\u003e[scode type=\"yellow\"]毕竟站长是买不起Mac的，所以只能基于Windows安装使用，当然肯定是比不上Mac。[/scode]系统准备所需容量：至少40GB的硬盘空间，推荐80GB。需要资源VMware虚拟机",
+      "url": "https://starsei.com/"
     },
     {
       "title": "handsome评论区表情包拓展",
@@ -669,7 +796,8 @@
       "published": "2023-08-19 17:04:00",
       "author": "猫不吃鱼",
       "avatar": "https://starsei.com/favicon.ico",
-      "content": "[scode type=\"green\"]handsome评论区表情包拓展[/scode]\u003cbr\u003e[scode type=\"blue\"]支持handsome 9.2.1pro,表情包更新时间2024-07-11[/scode]\u003cbr\u003e[scode type=\"yellow\"]更多表情包正在努力中....[/scode]更新记录[collapse status=\"false\" title=\"更新记录\"] 更新日期：2024-07-11\u003cbr\u003e 更新内容：小红书表情包[/collapse]预览阿鲁推特flentb站网e猫抖音酷安::aru:tongue::::twemoji:smile::::fluent:1::::bilibili:weixiao::::E-Meow:E-Meow0::::douyin:26::::kuan:coolapk_emotion_48_weiweiyixiao::::"
+      "content": "[scode type=\"green\"]handsome评论区表情包拓展[/scode]\u003cbr\u003e[scode type=\"blue\"]支持handsome 9.2.1pro,表情包更新时间2024-07-11[/scode]\u003cbr\u003e[scode type=\"yellow\"]更多表情包正在努力中....[/scode]更新记录[collapse status=\"false\" title=\"更新记录\"] 更新日期：2024-07-11\u003cbr\u003e 更新内容：小红书表情包[/collapse]预览阿鲁推特",
+      "url": "https://starsei.com/"
     }
   ]
 }

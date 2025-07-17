@@ -2,7 +2,7 @@ server:
   port: 8080
 
 task:
-  interval_hours: 6
+  cron_expr: 0 0 3 * * *
 
 rss:
   config_url: "https://cdn.aimiliy.top/npm/json/RSS.json"

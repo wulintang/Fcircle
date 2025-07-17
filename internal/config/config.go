@@ -11,7 +11,7 @@ type AppConfig struct {
 	} `mapstructure:"server"`
 
 	Task struct {
-		IntervalHours int `mapstructure:"interval_hours"`
+		CronExpr string `mapstructure:"cron_expr"`
 	} `mapstructure:"task"`
 
 	RSS struct {
@@ -41,7 +41,7 @@ func LoadConfig() *AppConfig {
 	v.AutomaticEnv()
 
 	v.BindEnv("server.port", "SERVER_PORT")
-	v.BindEnv("task.interval_hours", "INTERVAL_HOURS")
+	v.BindEnv("task.cron_expr", "CRON_EXPR")
 	v.BindEnv("rss.config_url", "RSS_CONFIG_URL")
 	v.BindEnv("rss.output_file", "OUTPUT_FILE")
 	v.BindEnv("log.file", "LOG_FILE")
@@ -51,7 +51,7 @@ func LoadConfig() *AppConfig {
 		logrus.Fatalf("配置解析失败：%v", err)
 	}
 
-	logrus.Infof("配置加载成功：端口 %d，间隔 %d 小时", cfg.Server.Port, cfg.Task.IntervalHours)
+	logrus.Infof("配置加载成功：端口 %d", cfg.Server.Port)
 
 	Config = &cfg
 	return Config

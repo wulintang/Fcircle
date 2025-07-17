@@ -5,11 +5,11 @@ import (
 	"Fcircle/internal/fetcher"
 	"Fcircle/internal/utils"
 	"fmt"
+	"github.com/robfig/cron/v3"
 	"log"
 	"net/http"
 	"os"
 	"sync"
-	"time"
 )
 
 var (
@@ -32,14 +32,13 @@ func main() {
 	fmt.Println("程序启动，开始首次抓取...")
 	go fetchAndSave()
 
-	ticker := time.NewTicker(time.Hour * time.Duration(appConfig.Task.IntervalHours))
-	defer ticker.Stop()
-	go func() {
-		for range ticker.C {
-			fmt.Println("定时任务触发，开始抓取...")
-			fetchAndSave()
-		}
-	}()
+	c := cron.New(cron.WithSeconds()) // 支持秒字段的 Cron 表达式
+	_, err = c.AddFunc(appConfig.Task.CronExpr, fetchAndSave)
+	if err != nil {
+		fmt.Println("定时任务添加失败：", err)
+		return
+	}
+	c.Start()
 
 	http.HandleFunc("/fetch", httpFetchHandler)
 
