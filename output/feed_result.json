@@ -1,12 +1,30 @@
 {
   "meta": {
-    "fetch_time": "2025-07-17 17:22:04",
-    "friend_count": 28,
+    "fetch_time": "2025-07-18 14:59:59",
+    "friend_count": 32,
     "success_count": 18,
-    "fail_count": 10,
+    "fail_count": 14,
     "article_count": 88
   },
   "items": [
+    {
+      "title": "离线部署 Harbor 企业级镜像仓库指南",
+      "link": "https://blog.lusyoe.com/article/offline-deploy-harbor-registry",
+      "published": "2025-07-18 08:00:00",
+      "author": "青萍叙事",
+      "avatar": "https://blog.lusyoe.com/lusyoe-logo.webp",
+      "content": "\u003ca href=\"#2309161fd46b8011ba16cd008dc023d6\"\u003e\u003c/a\u003e📝 前言最近几期都在介绍 DevOps 专题，在 DevOps 自动化流程中最终都是要生成一个制品以供部署，现在通常这个制品一般都是 Docker 镜像。如何使得镜像在其他环境任意部署，这个就需要使用到镜像仓库来进行存储和分发了。总的来说镜像仓库是 DevOps 流程中不可或缺的一部分，这也是本篇需要介绍 Harbor 的原因。",
+      "url": "https://blog.lusyoe.com/"
+    },
+    {
+      "title": "使用二进制部署 Gitea Runner 指南（实战二）",
+      "link": "https://blog.lusyoe.com/article/deploy-gitea-runner-binary",
+      "published": "2025-07-17 08:00:00",
+      "author": "青萍叙事",
+      "avatar": "https://blog.lusyoe.com/lusyoe-logo.webp",
+      "content": "\u003ca href=\"#2309161fd46b8094a217eb675cdb9413\"\u003e\u003c/a\u003e📝 前言回顾一下，在 DevOps 专题的前几期，我们分别介绍了以下内容：Gitea 是什么，有哪些核心功能：\u003ca href=\"https://blog.lusyoe.com/article/gitea-intro\"\u003e《从阿里云效到自建DevOps平台：Gitea入门介绍》\u003c/a\u003e如何部署 Gitea：",
+      "url": "https://blog.lusyoe.com/"
+    },
     {
       "title": "站点更新！CDN优化！腾讯EO白嫖经历",
       "link": "https://www.xscnet.cn/posts/p2620250716",
@@ -26,6 +44,15 @@
       "url": "https://www.xscnas.top/"
     },
     {
+      "title": "网站朋友动态功能详细设计",
+      "link": "https://blog.lusyoe.com/article/friends-feed-design",
+      "published": "2025-07-16 08:00:00",
+      "author": "青萍叙事",
+      "avatar": "https://blog.lusyoe.com/lusyoe-logo.webp",
+      "content": "\u003ca href=\"#22a9161fd46b80e49cedd397b5651926\"\u003e\u003c/a\u003e📝 前言近日经常有看到不少博友的网站都有一个朋友圈的模块，用于展示友链中博主的文章更新，因此萌生出自己也做一个的想法，正好趁着上周末有点时间，花了一天的时间完成了该功能。今天就来分享一下本站的朋友动态是如何实现的。\u003ca href=\"#22a9161fd46b804fa9c9eb161c598f83\"\u003e\u003c/a\u003e🧭 背景介绍在个人博客网站中 友链 常用于展示站点主人的社交关系和互访资源。为了让“友链”更有",
+      "url": "https://blog.lusyoe.com/"
+    },
+    {
       "title": "针对非法侵入的PCDN，我们该做些什么？",
       "link": "https://www.dao.js.cn/new/2025071511837.shtml",
       "published": "2025-07-15 14:50:23",
@@ -35,6 +62,15 @@
       "url": "https://www.dao.js.cn/"
     },
     {
+      "title": "使用 Docker 快速部署 Gitea 指南（实战一）",
+      "link": "https://blog.lusyoe.com/article/docker-deploy-gitea-guide",
+      "published": "2025-07-15 08:00:00",
+      "author": "青萍叙事",
+      "avatar": "https://blog.lusyoe.com/lusyoe-logo.webp",
+      "content": "\u003ca href=\"#2309161fd46b801e9ca9c6c7db770684\"\u003e\u003c/a\u003e📝 前言在上一篇\u003ca href=\"https://blog.lusyoe.com/article/gitea-intro\"\u003e《从阿里云效到自建DevOps平台：Gitea入门介绍》\u003c/a\u003e我们介绍了 Gitea 是什么，使用场景以及核心功能，这一期我们就开始正式的实战起来，先介绍如何通过 Docker 快速部署 Gitea。",
+      "url": "https://blog.lusyoe.com/"
+    },
+    {
       "title": "在html网页通过cdn引入霞鹜文楷字体教程",
       "link": "https://blog.lzch.top/archives/490/",
       "published": "2025-07-14 11:56:00",
@@ -42,6 +78,15 @@
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
       "content": "使用教程首先在引入cdn字体库\u003clink rel=\"stylesheet\" href=\"https://unpkg.com/lxgw-wenkai-screen-webfont@1.6.0/lxgwwenkaiscreen.css\"\u003e然后添加css代码body{\nfont-family: \"LXGW WenKai Screen\", sans-serif;\n}字体效果图",
       "url": "https://blog.lzch.top/"
+    },
+    {
+      "title": "从阿里云效到自建DevOps平台：Gitea入门介绍",
+      "link": "https://blog.lusyoe.com/article/gitea-intro",
+      "published": "2025-07-14 08:00:00",
+      "author": "青萍叙事",
+      "avatar": "https://blog.lusyoe.com/lusyoe-logo.webp",
+      "content": "\u003ca href=\"#22b9161fd46b8010a944e9363d2c3b70\"\u003e\u003c/a\u003e📝 前言：腾讯 Coding 下线引发的思考2025 年 6 月，腾讯云宣布将于 2025 年9月 正式下线 Coding DevOps 服务，引发大量开发团队关注与迁移计划。作为一款集代码托管、持续集成、测试与部署于一体的国产 DevOps 工具，Coding 曾被许多创业公司、中小企业视为阿里云效的替代方案。然而，随着该产品的停止运营，其新一代的CNB产品又不够成熟，越来越多团队开始意识到：依赖厂",
+      "url": "https://blog.lusyoe.com/"
     },
     {
       "title": "halo匿名用户显示头像",
@@ -332,24 +377,6 @@
       "url": "https://shiyin.cafe/"
     },
     {
-      "title": "主动式网站状态监测实现及其应用",
-      "link": "https://www.drluo.top/posts/11575",
-      "published": "2025-05-22 18:47:53",
-      "author": "洛屿的小站",
-      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
-      "content": "近期有为博客添加网站状态监测页面的想法，可以监测友链的存活状态等\n但是根据搜到的，可以使用UptimeRobot进行监测。但是其中的一些操作，比如调整监测页面链接需要进行包月付费\n本着能省则省的原则，便想着不如着手实现一下主动监测。",
-      "url": "https://www.drluo.top/"
-    },
-    {
-      "title": "右键菜单加入用Trae打开文件和文件夹",
-      "link": "https://www.drluo.top/posts/32731",
-      "published": "2025-05-21 22:07:32",
-      "author": "洛屿的小站",
-      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
-      "content": "效果如下",
-      "url": "https://www.drluo.top/"
-    },
-    {
       "title": "说说：#1747540558",
       "link": "https://eggk.net/notes/19538f50.html",
       "published": "2025-05-18 11:55:58",
@@ -384,15 +411,6 @@
       "avatar": "https://imgse.koxiuqiu.cc/imgse/v/2025/67c3db8735acb.png",
       "content": "今天教大家使用Docker-compose安装halo博客，只需要5分钟即可完成搭建。\u003cbr\u003e项目介绍Halo是凌霞飞致云旗下的一款强大易用的开源博客建站系统，它让你无需太多的技术知识，新手小白也可以快速搭建一个博客、网站或者内容管理系统。\u003cbr\u003e环境要求服务器需要先安装Docker和Docker-compose{collapse}\u003cbr\u003e{collapse-item label=\"安装Docker教程\" open}\u003cbr\u003e大家可以前往Docker官网下载，官方教程",
       "url": "https://blog.lzch.top/"
-    },
-    {
-      "title": "三角洲行动ID映射表",
-      "link": "https://www.drluo.top/posts/55524",
-      "published": "2025-05-15 20:19:49",
-      "author": "洛屿的小站",
-      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
-      "content": "三角洲行动id映射表，角色、枪械、积分等。\n你可以在github上找到本页面相应数据以及后续更新：\n\u003ca href=\"https://github.com/luoy-oss/deltaforce_id\"\u003eluoy-oss\u003c/a\u003e",
-      "url": "https://www.drluo.top/"
     },
     {
       "title": "说说：#1747038339",
@@ -530,15 +548,6 @@
       "url": "https://shiyin.cafe/"
     },
     {
-      "title": "洛玖SDK说明",
-      "link": "https://www.drluo.top/posts/luo9_sdk",
-      "published": "2025-03-31 23:22:23",
-      "author": "洛屿的小站",
-      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
-      "content": "\u003ca href=\"https://github.com/luoy-oss/luo9_sdk\"\u003e洛玖SDK\u003c/a\u003e是一个用于开发洛玖机器人插件的综合性开发工具包。本文档将详细介绍SDK的核心功能、事件处理机制以及API接口的使用方法。",
-      "url": "https://www.drluo.top/"
-    },
-    {
       "title": "【记】成为一支火腿（Ham）的故事",
       "link": "https://blog.ning.moe/posts/amateur-radio/",
       "published": "2025-03-31 12:22:56",
@@ -555,15 +564,6 @@
       "avatar": "https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400",
       "content": "白嫖平板，可惜这板子一眼库存货，今天就先遥遥领先一小时吧  \u003cbr\u003e\n\n\n\u003ca href=\"https://kanokano.cn/archives/1415.html\"\u003e来源\u003c/a\u003e",
       "url": "https://kanokano.cn"
-    },
-    {
-      "title": "为网页文章开头添加原文连接",
-      "link": "https://www.drluo.top/posts/14996",
-      "published": "2025-03-28 23:28:23",
-      "author": "洛屿的小站",
-      "avatar": "https://cravatar.cn/avatar/6fa57e21db3ba5961f18a8ae75d0a081?s=200\u0026r=g\u0026d=retro",
-      "content": "本文介绍如何在博客文章页面添加原文链接，并进行动画效果美化，效果如下：\n\n\n向插件",
-      "url": "https://www.drluo.top/"
     },
     {
       "title": "typescript中配置axios",

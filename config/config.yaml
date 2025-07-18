@@ -1,5 +1,6 @@
 server:
   port: 8080
+  secret_key: ######
 
 task:
   cron_expr: 0 0 3 * * *

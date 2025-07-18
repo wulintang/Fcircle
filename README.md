@@ -30,6 +30,7 @@ services:
       - ./logs:/app/output
     environment:
       - SERVER_PORT=8080                     # 对应 容器启动端口
+      - SECRET_KEY=#####                     # 手动请求密钥
       - CRON_EXPR=0 0 3 * * *           # 设置定时调用的间隔时间
       - CONFIG_URL=https://cdn.aimiliy.top/npm/json/RSS.json  # 配置文件url
       - OUTPUT_FILE=output/feed_result.json   # 朋友圈json文件路径
@@ -48,13 +49,14 @@ docker-compose up -d
 
 该项目默认不再使用本地配置文件，而是通过环境变量进行控制，以下为主要环境变量说明：
 
-| 环境变量            | 说明               | 示例值                             |
-|-----------------|------------------|------------------------------------|
-| `SERVER_PORT`   | HTTP 服务监听端口      | `8080`                             |
-| `CRON_EXPR`     | cron表达式          | `0 0 3 * * *`                                |
-| `CONFIG_URL`    | 远程 RSS 配置文件地址    | `https://xxx.com/path/RSS.json`   |
-| `OUTPUT_FILE`   | 抓取结果保存路径（容器内）    | `output/feed_result.json`         |
-| `LOG_FILE`      | 日志输出路径（容器内）      | `output/crawl.log`                |
+| 环境变量          | 说明             | 示例值                             |
+|---------------|----------------|---------------------------------|
+| `SERVER_PORT` | HTTP 服务监听端口    | `8080`                          |
+| `SECRET_KEY`  | fetch接口请求密钥    | `#####`                         |
+| `CRON_EXPR`   | cron表达式        | `0 0 3 * * *`                   |
+| `CONFIG_URL`  | 远程 RSS 配置文件地址  | `https://xxx.com/path/RSS.json` |
+| `OUTPUT_FILE` | 抓取结果保存路径（容器内）  | `output/feed_result.json`       |
+| `LOG_FILE`    | 日志输出路径（容器内）    | `output/crawl.log`              |
 
 
 ## 📦 输出文件说明
@@ -66,5 +68,7 @@ output/
 └── feed_result.json    # 抓取到的文章信息
 ```
 
-在配置完代理之后，可以通过/feed来获取feed_result.json
+在配置完代理之后，可以通过`/feed`来获取`feed_result.json`
 例如：https://feed.miraii.cn/feed
+
+可以通过`/fetch?key=xxxxxx`来重新解析RSS，其中的key为docker环境变量中设置的SECRET_KEY，以上接口都根据IP做了限流处理，请不要滥用哦！具体限流速率可以到源代码中查看。

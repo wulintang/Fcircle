@@ -7,7 +7,8 @@ import (
 
 type AppConfig struct {
 	Server struct {
-		Port int `mapstructure:"port"`
+		Port      int    `mapstructure:"port"`
+		SecretKey string `mapstructure:"secret_key"`
 	} `mapstructure:"server"`
 
 	Task struct {
@@ -41,6 +42,7 @@ func LoadConfig() *AppConfig {
 	v.AutomaticEnv()
 
 	v.BindEnv("server.port", "SERVER_PORT")
+	v.BindEnv("server.secret_key", "SECRET_KEY")
 	v.BindEnv("task.cron_expr", "CRON_EXPR")
 	v.BindEnv("rss.config_url", "RSS_CONFIG_URL")
 	v.BindEnv("rss.output_file", "OUTPUT_FILE")
