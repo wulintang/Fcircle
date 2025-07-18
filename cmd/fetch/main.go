@@ -40,6 +40,8 @@ func main() {
 	}
 	c.Start()
 
+	fmt.Printf("定时任务添加成功，Cron 表达式为： %v\n", appConfig.Task.CronExpr)
+
 	http.HandleFunc("/fetch", httpFetchHandler)
 
 	http.HandleFunc("/feed", httpFeedResultHandler)
