@@ -29,8 +29,9 @@ services:
     volumes:
       - ./logs:/app/output
     environment:
+      - GIN_MODE=release                    # 设定 Gin 运行环境
       - SERVER_PORT=8080                     # 对应 容器启动端口
-      - SECRET_KEY=#####                     # 手动请求密钥
+      - SECRET_KEY=#####                     # /fetch接口手动请求密钥
       - CRON_EXPR=0 0 3 * * *           # 设置定时调用的间隔时间
       - CONFIG_URL=https://cdn.aimiliy.top/npm/json/RSS.json  # 配置文件url
       - OUTPUT_FILE=output/feed_result.json   # 朋友圈json文件路径
