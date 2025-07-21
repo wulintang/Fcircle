@@ -38,10 +38,14 @@ func main() {
 	fmt.Println("程序启动，开始首次抓取...")
 	go fetchAndSave()
 
-	loc, _ := time.LoadLocation("Asia/Shanghai")
+	loc, err := time.LoadLocation("Asia/Shanghai")
+	if err != nil {
+		loc = time.FixedZone("CST", 8*60*60)
+	}
+
 	c := cron.New(
 		cron.WithSeconds(),
-		cron.WithLocation(loc), // 指定时区
+		cron.WithLocation(loc),
 	)
 	_, err = c.AddFunc(appConfig.Task.CronExpr, fetchAndSave)
 	if err != nil {
