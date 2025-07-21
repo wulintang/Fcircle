@@ -38,7 +38,11 @@ func main() {
 	fmt.Println("程序启动，开始首次抓取...")
 	go fetchAndSave()
 
-	c := cron.New(cron.WithSeconds()) // 支持秒字段的 Cron 表达式
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+	c := cron.New(
+		cron.WithSeconds(),
+		cron.WithLocation(loc), // 指定时区
+	)
 	_, err = c.AddFunc(appConfig.Task.CronExpr, fetchAndSave)
 	if err != nil {
 		fmt.Println("定时任务添加失败：", err)
