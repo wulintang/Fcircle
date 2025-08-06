@@ -33,7 +33,7 @@ func LoadRemoteFriends(url string) ([]model.Friend, error) {
 // CrawlArticles 并发抓取所有友链的前N篇文章，返回FeedResult
 func CrawlArticles(friends []model.Friend) model.FeedResult {
 	const maxConcurrency = 10
-	const maxArticlesPerFriend = 5
+	const maxArticlesPerFriend = 10
 
 	var (
 		wg           sync.WaitGroup
