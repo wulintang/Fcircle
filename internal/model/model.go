@@ -1,32 +1,23 @@
 package model
 
-// Friend 代表一个友链的基本信息
-type Friend struct {
-	Name   string `json:"name"`   // 昵称
-	URL    string `json:"url"`    // 个人站地址
-	Avatar string `json:"avatar"` // 头像地址
-	RSS    string `json:"RSS"`    // RSS 订阅源
+// FeedItem 代表一篇文章的信息
+type FeedItem struct {
+	Title  string `json:"title"`  // 文章标题
+	Link   string `json:"link"`   // 文章链接
+	Source string `json:"source"` // 来源网站
+	Date   string `json:"date"`   // 发布日期
 }
 
-// Article 代表从 RSS 中抓取的一篇文章
-type Article struct {
-	Title     string `json:"title"`     // 标题
-	Link      string `json:"link"`      // 文章链接
-	Published string `json:"published"` // 发布时间
-	Author    string `json:"author"`    // 作者昵称
-	Avatar    string `json:"avatar"`    // 作者头像
-	Content   string `json:"content"`   // 内容
-	Url       string `json:"url"`       // 个人站地址
-}
+// FeedResult 用于输出最终JSON文件结构
+// 键为域名（如"20060611.xyz"），值为该域名下的文章数组
+type FeedResult map[string][]FeedItem
 
-// FeedResult 用于输出最终 JSON 文件结构
-type FeedResult struct {
-	Meta struct {
-		FetchTime    string `json:"fetch_time"`    // 抓取时间
-		FriendCount  int    `json:"friend_count"`  // 配置中友链数量
-		SuccessCount int    `json:"success_count"` // 抓取成功的 RSS 数
-		FailCount    int    `json:"fail_count"`    // 抓取失败的 RSS 数
-		ArticleCount int    `json:"article_count"` // 总共抓取到的文章数
-	} `json:"meta"`
-	Items []Article `json:"items"` // 所有抓取到的文章列表
+// 辅助结构体，用于在处理过程中存储元数据
+// 最终生成JSON时可能不需要包含这些元数据
+type FeedMetadata struct {
+	FetchTime    string // 抓取时间
+	FriendCount  int    // 配置中友链数量
+	SuccessCount int    // 抓取成功的RSS数
+	FailCount    int    // 抓取失败的RSS数
+	ArticleCount int    // 总共抓取到的文章数
 }
