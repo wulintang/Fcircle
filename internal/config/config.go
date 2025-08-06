@@ -30,14 +30,14 @@ var Config *AppConfig
 func LoadConfig() *AppConfig {
 	v := viper.New()
 
-	v.SetConfigName("config")
-	v.SetConfigType("yaml")
-	v.AddConfigPath("./config")
-	v.AddConfigPath("/app/config")
-
-	if err := v.ReadInConfig(); err != nil {
-		logrus.Warnf("配置文件读取失败：%v，将尝试从环境变量读取", err)
-	}
+	//v.SetConfigName("config")
+	//v.SetConfigType("yaml")
+	//v.AddConfigPath("./config")
+	//v.AddConfigPath("/app/config")
+	//
+	//if err := v.ReadInConfig(); err != nil {
+	//	logrus.Warnf("配置文件读取失败：%v，将尝试从环境变量读取", err)
+	//}
 
 	v.AutomaticEnv()
 
