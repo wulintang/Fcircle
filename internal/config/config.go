@@ -30,24 +30,21 @@ var Config *AppConfig
 func LoadConfig() *AppConfig {
 	v := viper.New()
 
-	// 关闭配置文件读取逻辑，仅使用环境变量
-	/*
-		v.SetConfigName("config")
-		v.SetConfigType("yaml")
-		v.AddConfigPath("./config")
-		v.AddConfigPath("/app/config")
+	v.SetConfigName("config")
+	v.SetConfigType("yaml")
+	v.AddConfigPath("./config")
+	v.AddConfigPath("/app/config")
 
-		if err := v.ReadInConfig(); err != nil {
-			logrus.Warnf("配置文件读取失败：%v，将尝试从环境变量读取", err)
-		}
-	*/
+	if err := v.ReadInConfig(); err != nil {
+		logrus.Warnf("配置文件读取失败：%v，将尝试从环境变量读取", err)
+	}
 
 	v.AutomaticEnv()
 
 	v.BindEnv("server.port", "SERVER_PORT")
 	v.BindEnv("server.secret_key", "SECRET_KEY")
 	v.BindEnv("task.cron_expr", "CRON_EXPR")
-	v.BindEnv("rss.config_url", "RSS_CONFIG_URL")
+	v.BindEnv("rss.config_url", "CONFIG_URL")
 	v.BindEnv("rss.output_file", "OUTPUT_FILE")
 	v.BindEnv("log.file", "LOG_FILE")
 
