@@ -19,7 +19,7 @@ type Article struct {
 	Url       string `json:"url"`       // 个人站地址
 }
 
-// FeedResult 用于输出最终 JSON 文件结构（原有定义）
+// FeedResult 用于输出最终 JSON 文件结构
 type FeedResult struct {
 	Meta struct {
 		FetchTime    string `json:"fetch_time"`    // 抓取时间
@@ -30,42 +30,3 @@ type FeedResult struct {
 	} `json:"meta"`
 	Items []Article `json:"items"` // 所有抓取到的文章列表
 }
-
-// DomainFeedItem 用于按个人站地址分组的文章信息
-type DomainFeedItem struct {
-	Title  string `json:"title"`  // 文章标题
-	Link   string `json:"link"`   // 文章链接
-	Source string `json:"source"` // 来源（个人站地址）
-	Date   string `json:"date"`   // 发布日期
-}
-
-// DomainFeedResult 按个人站地址分组的最终输出格式
-type DomainFeedResult map[string][]DomainFeedItem
-
-// ConvertToDomainFormat 将原有FeedResult转换为按个人站地址分组的格式
-func (fr *FeedResult) ConvertToDomainFormat() DomainFeedResult {
-	result := make(DomainFeedResult)
-	
-	// 遍历所有文章，按个人站地址分组
-	for _, article := range fr.Items {
-		// 直接使用个人站地址作为分组键和source值
-		siteUrl := article.Url
-		if siteUrl == "" {
-			continue
-		}
-		
-		// 转换为目标格式的文章结构
-		item := DomainFeedItem{
-			Title:  article.Title,
-			Link:   article.Link,
-			Source: siteUrl,  // source直接使用个人站地址
-			Date:   article.Published,
-		}
-		
-		// 添加到对应个人站地址的数组中
-		result[siteUrl] = append(result[siteUrl], item)
-	}
-	
-	return result
-}
-    
